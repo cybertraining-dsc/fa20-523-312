@@ -10,18 +10,22 @@ Toxicity analysis of ecologically vulnerable water-bodies, or any other marine e
 
 ## <ins>Background Research and Previous Work:</ins>
 
+After reviewing the necessary background literture and previous work that has been done in this field, we can state that most of such endeavors focussed majorly on continuous environmental data collection with the help of sensors attached to a stationary buoy in a particular location of a water-body. Some of the other endeavors did involve deploying a non-stationary vehicle that collected data from large swaths of geographical areas in a particular water body. However, such attempts did not focus much on the data analysis portion not did it involve an intricate procedure to compare the collected data with historical averages so as to arrive at a suitable conclusion regarding the extent of environmental degradation.
+
+As mentioned in the previous section, this research project will exhaustively focus not just on the data-collection portion by a non-stationary vehicle but it will also involve employing deeper study towards the subject of big-data analysis so that we can learn more about the toxicological aspects of the ecosystem in question.
+
+
 
 ## <ins>Choice of data-set(s):</ins>
-
 ### Existence of multiple data-set(s)? Why choose of one over the other?
 ### Motivation of using multiple data-set(s) from multiple source(s)?
 
-1. [link] (https://waterdata.usgs.gov/nwis/qw)
+Upon exploring a wide array of available datasets, the following repositories were chosen to get the required water quality based data over a particular period of time.   
 
+1. [link] (https://waterdata.usgs.gov/nwis/qw)
 2. [link] (https://www.epa.gov/waterdata/water-quality-data-download#portal).
 
-   [link] (https://www.waterqualitydata.us/).
-   [link] (https://www.epa.gov/charlesriver/live-water-quality-data-lower-charles-river). (example - Charles River)
+To answer the questions involving existence of multiple data-sets and motivation of using multiple data-sets, we must keep in mind that the very nature of this study is based on historical trends of the how the water-quality has altered in the past and how it relates to the current situation. Because of these reasons, multiple data-sets will be referred to from multiple sources so as to achieve a robust data-analytical results. This would ensure that too much focus is not given on outlier cases, that may be relevant to just a particular geographical region or an aberration in the data may only have arisen due to an unknown underlying phenomenon or some form of cataclysmic event from the past. Using multiple datasets from different sources would help us to converge towards an approximate level of historical thresholds and which can then be used to find out how the current observed data deviates from such previous patterns.
    
 
 ## <ins>Proposed Methodology:</ins>
@@ -33,5 +37,8 @@ Toxicity analysis of ecologically vulnerable water-bodies, or any other marine e
 
 ## <ins>Inference:</ins>
 
+This section will be addressed upon project completion.
 
 ## <ins>Conclusion and Future Direction(s):</ins>
+
+This section will be addressed upon project completion.
