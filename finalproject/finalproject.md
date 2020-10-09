@@ -1,22 +1,23 @@
-# Weather Forecasting and Environmental Monitoring
+# <ins>Weather Forecasting and Environmental Monitoring</ins>
 
 
 
-## Research Statement
+## <ins>Research Statement:</ins>
 
 
-## Background Research and Previous Work
+## <ins>Background Research and Previous Work:</ins>
 
 
-## Choice of data-set(s)
+## <ins>Choice of data-set(s):</ins>
 
-### Existence of multiple data-set(s)?
-
-
-## Proposed Methodology
+### Existence of multiple data-set(s)? Why choose of one over the other?
+### Motivation of using multiple data-set(s) from multiple source(s)?
 
 
-## Inference
+## <ins>Proposed Methodology:</ins>
 
 
-## Conclusion and Future Direction(s)
+## <ins>Inference:</ins>
+
+
+## <ins>Conclusion and Future Direction(s):</ins>
