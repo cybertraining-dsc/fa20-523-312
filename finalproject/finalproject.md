@@ -25,6 +25,10 @@ Team
 
 ## <ins>Proposed Methodology:</ins>
 
+* Temperature
+* Potential of Hydrogen (pH)
+* Dissolved Oxygen
+* Specific Conductance
 
 ## <ins>Inference:</ins>
 
