@@ -1,6 +1,6 @@
 # <ins>Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</ins>
 
-*Contributor(s): Saptarshi Sinha*
+*Contributor: Saptarshi Sinha*
 
 ## <ins>Research Statement:</ins>
 When it comes to revolutionizing our qualities of life and improving standards, there is not another branch of science and technology that has made more impact than the myriad technological capabilities offered by the areas of Artificial Intelligence (AI) and its sub-fields involving Computer Vision, Robotics, Machine Learning, Deep Learning, Reinforcement Learning, etc. It should be borne in mind that AI was developed to allow machines/computer processors to work in the same way as the human brain works and which could make intelligent decisions at every conscious level. It was meant to help with tasks for rendering scientific applications more smarter and efficient. There are many tasks that can be performed in a far more dexterous fashion by employing smart-machines and algorithms than by involving human beings. But even more importantly, AI has also been designed to perform tasks that cannot be successfully completed by employing human beings. This could either be due to the prolonged boredom of the task itself, or a task that involves hazardous environments that cannot sustain life-forms for a long time. Some examples in this regard would involve exploring deep mines or volcanic trenches for mineral deposits, exploring the vast expanse of the universe and heavenly bodies, etc. And this is where the concept employing AI/Robotics based technology fits in perfectly for aquatic monitoring and oceanographical surveillance based applications.
@@ -17,8 +17,6 @@ As mentioned in the previous section, this research project will exhaustively fo
 
 
 ## <ins>Choice of data-set(s):</ins>
-### Existence of multiple data-set(s)? Why choose of one over the other?
-### Motivation of using multiple data-set(s) from multiple source(s)?
 
 Upon exploring a wide array of available datasets, the following repositories were chosen to get the required water quality based data over a particular period of time.   
 
