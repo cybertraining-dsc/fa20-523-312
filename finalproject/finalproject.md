@@ -44,7 +44,6 @@ After the data has been collected by the ASV either on a temporal scale (over a 
 The establishment of the degree of variance of the data from the historical data will be carried out by documenting the particular quartile that the current data lies in with respect to the median data that is obtained from the past/historical datasets. For instance, if the current data resides in the second quartile, it can be demarcated as being more or less consistent with previously established values. However, if it resides in the first or third quartile then it will signify that the system has aberrant aspects which might need to be investigated for possible levels of pollutants or presence of harmful invasive species that might be altering the natural balance of the system.
 
 
-
 ## <ins>Inference:</ins>
 
 This section will be addressed upon project completion.
