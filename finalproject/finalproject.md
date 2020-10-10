@@ -34,12 +34,17 @@ To answer the questions involving existence of multiple data-sets and motivation
 
 A very rough outline of the autonomous surface vehicle in question has been preceived in the Autodesk Fusion 360 software model. A preliminary model has been erected in this software so as to 3D print the design and then interface it with the appropriate sensors in question. Then system will be driven by an Arduino Uno based microcontroller, and it will have different types of environmental sensors that will collect and log data. These sensors have been purchased from the vendor, "Atlas Scientific". As of now, the sensors that have been chosen for this ASV are as follows: 
 
-* PT-1000 Temperature sensor kit (https://atlas-scientific.com/kits/pt-1000-temperature-kit/)
-* Potential of Hydrogen (pH) sensor kit (https://atlas-scientific.com/kits/ph-kit/)
-* Dissolved Oxygen sensor kit (https://atlas-scientific.com/kits/dissolved-oxygen-kit/)
-* Conductivity K 1.0 sensor kit (https://atlas-scientific.com/kits/conductivity-k-1-0-kit/)
+* PT-1000 Temperature sensor kit - https://atlas-scientific.com/kits/pt-1000-temperature-kit/
+* Potential of Hydrogen (pH) sensor kit - https://atlas-scientific.com/kits/ph-kit/
+* Dissolved Oxygen (DO) sensor kit - https://atlas-scientific.com/kits/dissolved-oxygen-kit/
+* Conductivity K 1.0 sensor kit - https://atlas-scientific.com/kits/conductivity-k-1-0-kit/
 
 ### Software Component:
+
+After the data has been collected by the ASV either on a temporal scale (over a period of time) or a spatial scale (over a geographical area), it will then be analyzed to decipher the median convergent values of the water body for the four different parameters that have been measured (i.e. Temperature, pH, DO, and Conductivity). The results of this data analysis task will then be used to find out if the water quality parametric values manifested by a system deviates by a large proportion from the other result that is obtained after analysis the historical data from USGS and EPA for a nearby, unpolluted source of water. The USGS and EPA websites make it easier to find data from a nearby geographical region by making it possible to enter the desired location prior to searching for water quality data in their huge database. In this way, it can be figured out if the water quality parameters of the ecological system in question varies wildly from a neighboring system that has almost the same geographical and ecological attributes.
+
+The establishment of the degree of variance of the data from the historical data will be carried out by documenting the particular quartile that the current data lies in with respect to the median data that is obtained from the past/historical datasets. For instance, if the current data resides in the second quartile, it can be demarcated as being more or less consistent with previously established values. However, if it resides in the first or third quartile then it will signify that the system has aberrant aspects which might need to be investigated for possible levels of pollutants or presence of harmful invasive species that might be altering the natural balance of the system.
+
 
 
 ## <ins>Inference:</ins>
