@@ -3,7 +3,7 @@
 * [ ] all http links that are not res, must be in smaller, greater brackets.
 * [x] this is a done item. Once you have done the item mar them with [+]
 
-Saptarshi Sinha, fa20-523-312, [Edit](https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/master/project/project.md)
+Saptarshi Sinha, fa20-523-312, [report.md](https://github.com/cybertraining-dsc/fa20-523-312/blob/master/project/project.md)
 
 ## Introduction
 
