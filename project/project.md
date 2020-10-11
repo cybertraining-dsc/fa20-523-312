@@ -1,14 +1,9 @@
 # Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
 
-* [ ] remove all ins, nd /ins as it  will impact uniform formatting. E.g. we do not do wysiwyg we do markdown. ins is not markdown
-* [ ] sections do not have colons at the end
-* [ ] you do not have a refernce section.
-* [ ] please rename the directory to "project", please rename the report to report.md. 
 * [ ] all http links that are not res, must be in smaller, greater brackets.
-* [ ] refernce section is missing
 * [x] this is a done item. Once you have done the item mar them with [+]
 
-
+[Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/master/project/project.md)
 Saptarshi Sinha, fa20-523-312
 
 ## Introduction
