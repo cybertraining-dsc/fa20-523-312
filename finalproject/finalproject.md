@@ -58,6 +58,16 @@ The establishment of the degree of variance of the data from the historical data
 
 This section will be addressed upon project completion.
 
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+
 ## <ins>Conclusion and Future Direction(s):</ins>
 
 This section will be addressed upon project completion.
+
+## Refernces
+
+
+
