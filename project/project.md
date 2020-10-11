@@ -24,8 +24,8 @@ As mentioned in the previous section, this research project will exhaustively fo
 
 Upon exploring a wide array of available datasets, the following data repositories were chosen to get the required water quality based data over a particular period of time and for a particular geographical region.   
 
-1. USGS Water Quality Data: https://waterdata.usgs.gov/nwis/qw
-2. EPA Water Quality Data: https://www.epa.gov/waterdata/water-quality-data-download
+1. USGS Water Quality Data: <https://waterdata.usgs.gov/nwis/qw>
+2. EPA Water Quality Data: <https://www.epa.gov/waterdata/water-quality-data-download>
 
 To answer the questions involving existence of multiple data-sets and motivation of using multiple data-sets, we must keep in mind that the very nature of this study is based on historical trends of the how the water-quality has altered in the past and how it relates to the current situation. Because of these reasons, multiple data-sets will be referred to from multiple sources so as to achieve a robust data-analytical results. This would ensure that too much focus is not given on outlier cases, that may be relevant to just a particular geographical region or an aberration in the data that may only have arisen due to an unknown underlying phenomenon or some form of cataclysmic event from the past. Using multiple datasets from different sources would help to get a resultant data structure that is more likely to converge towards an approximate level of historical thresholds and which can then be used to find out how the current observed data deviates from such previous patterns.
    
@@ -36,10 +36,10 @@ To answer the questions involving existence of multiple data-sets and motivation
 
 A very rough outline of the autonomous surface vehicle (ASV) in question has been preceived in the Autodesk Fusion 360 software model. A preliminary model has been erected in this software so as to 3D print the design and then interface it with the appropriate sensors in question. Then system will be driven by an Arduino-Uno based microcontroller, and it will have different types of environmental sensors that will collect and log data. These sensors have been purchased from the vendor, "Atlas Scientific". As of now, the sensors that have been chosen for this ASV are as follows: 
 
-* PT-1000 Temperature sensor kit - https://atlas-scientific.com/kits/pt-1000-temperature-kit/
-* Potential of Hydrogen (pH) sensor kit - https://atlas-scientific.com/kits/ph-kit/
-* Dissolved Oxygen (DO) sensor kit - https://atlas-scientific.com/kits/dissolved-oxygen-kit/
-* Conductivity K 1.0 sensor kit - https://atlas-scientific.com/kits/conductivity-k-1-0-kit/
+* PT-1000 Temperature sensor kit - <https://atlas-scientific.com/kits/pt-1000-temperature-kit/>
+* Potential of Hydrogen (pH) sensor kit - <https://atlas-scientific.com/kits/ph-kit/>
+* Dissolved Oxygen (DO) sensor kit - <https://atlas-scientific.com/kits/dissolved-oxygen-kit/>
+* Conductivity K 1.0 sensor kit - <https://atlas-scientific.com/kits/conductivity-k-1-0-kit/>
 
 ### Software Component
 
