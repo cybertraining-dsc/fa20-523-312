@@ -23,10 +23,9 @@ Toxicity analysis of ecologically vulnerable water-bodies, or any other marine e
 
 ## 2. Background Research and Previous Work
 
-After reviewing the necessary background literture and previous work that has been done in this field, it can be stated that most of such endeavors focussed majorly on continuous environmental data collection with the help of sensors attached to a stationary buoy in a particular location of a water-body. Some of the other endeavors did involve deploying a non-stationary vehicle that collected data from large swaths of geographical areas in a particular water body. However, neither did such attempts focus much on the data analysis portion for multiple sensory input(s) nor did it involve an intricate procedure to compare the collected data with historical trends so as to arrive at a suitable conclusion regarding the extent of environmental degradation.
+After reviewing the necessary background literture and previous work that has been done in this field, it can be stated that most of such endeavors focussed majorly on continuous environmental data collection with the help of sensors attached to a stationary buoy in a particular location of a water-body. Some of the other endeavors did involve deploying a non-stationary vehicle that collected data from large swaths of geographical areas in various water bodies [^1], while some others focussed on niche areas involving migration pattern exhibited by zooplanktons upon natural and aritifical irradiance [^2]. However, neither did such attempts focus much on the data analysis portion for multiple sensory input(s) nor did it involve an intricate procedure to compare the collected data with historical trends so as to arrive at a suitable conclusion regarding the extent of environmental degradation.
 
 As mentioned in the previous section, this research project will exhaustively focus not just on the data-collection portion by a non-stationary vehicle, but it will also involve employing deeper study towards the subject of big-data analysis of both the current data of the system in question and the past data obtained for similar aquatic profiles. In this way, it would be possible to learn more about the toxicological aspects of the ecosystem in question.
-
 
 
 ## 3. Choice of Data-sets
@@ -61,14 +60,19 @@ The establishment of the degree of variance of the data from the historical data
 
 This section will be addressed upon project completion.
 
-Here's a simple citation[^1].
-
 ## 6. Conclusion
 
 This section will be addressed upon project completion.
 
-## 7. References
+## 7. Acknowledgements
 
-[^1]: Gregor von Laszewski. A sample citation. Oct. 2020
+The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course, offered at the Fall 2020 semester in Indiana University, Bloomington, for their continued assistance and suggestions in exploring this idea and preparing the various drafts.
+
+## 8. References
+
+[^1]: Valada A., Velagapudi P., Kannan B., Tomaszewski C., Kantor G., Scerri P. (2014) Development of a Low Cost Multi-Robot Autonomous Marine Surface Platform. In: Yoshida K., Tadokoro S. (eds) Field and Service Robotics. Springer Tracts in Advanced Robotics, vol 92. Springer, Berlin, Heidelberg. <https://doi.org/10.1007/978-3-642-40686-7_43>
+[^2]: : M. Ludvigsen, J. Berge, M. Geoffroy, J. H. Cohen, P. R. De La Torre, S. M. Nornes, H. Singh, A. J. Sørensen, M. Daase, G. Johnsen, Use of an Autonomous Surface Vehicle reveals small-scale diel vertical migrations of zooplankton and susceptibility to light pollution under low solar irradiance. Sci. Adv. 4, eaap9887 (2018).
+
+
 
 
