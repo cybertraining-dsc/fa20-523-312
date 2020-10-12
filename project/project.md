@@ -6,7 +6,7 @@ Saptarshi Sinha, fa20-523-312, [report.md](https://github.com/cybertraining-dsc/
 
 ## Abstract
 
-* [ ] include a small abstract here
+With the passage of time, human activities have created and contributed much to the aggrandizing problems of various forms of environmental pollution. Massive amounts of industrial effluents and agricultural waste wash-offs, that often comprise pesticides and other forms of agricultural chemicals, find their way to fresh water bodies, to lakes, and eventually to the oceanic systems. Such events start producing a gradual increase in the toxicity levels of marine ecosystems thereby perturbing the natural balance of such water-bodies. In this endeavor, an attempt will be made to measure the various water quality metrics (viz. temperature, pH, dissolved-oxygen level, and conductivity) with the help of an autonomous surface vehicle (ASV). This collected data will then be analyzed to ascertain if these values exhibit aberration from the established values that are found from USGS and EPA databases for water-quality standards. In the event, the collected data significantly deviates from the standard values of unpolluted sources in nearby geographical areas, that are obtained from the above databases, it can be concluded that the aquatic system in question has been degraded and may no longer be utilized for any form of human usage, such as being sourced for drinking water.   
 
 Contents
 
