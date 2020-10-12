@@ -67,7 +67,7 @@ This section will be addressed upon project completion.
 
 ## 7. Acknowledgements
 
-The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course, offered at the Fall 2020 semester in Indiana University, Bloomington, for their continued assistance and suggestions in exploring this idea and preparing the various drafts.
+The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
 
 ## 8. References
 
