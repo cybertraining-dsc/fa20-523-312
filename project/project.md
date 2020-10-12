@@ -49,6 +49,7 @@ A very rough outline of the autonomous surface vehicle (ASV) in question has bee
 * Dissolved Oxygen (DO) sensor kit - <https://atlas-scientific.com/kits/dissolved-oxygen-kit/>
 * Conductivity K 1.0 sensor kit - <https://atlas-scientific.com/kits/conductivity-k-1-0-kit/>
 
+
 ### 4.2 Software Component
 
 After the data has been collected by the ASV either on a temporal scale (over a period of time) or a spatial scale (over a geographical area), it will then be analyzed to decipher the median convergent values of the water body for the four different parameters that have been measured (i.e. Temperature, pH, DO, and Conductivity). The results of this data analysis task will then be used to find out if such water quality parametric values manifested by the aquatic ecosystem in question deviates by a large proportion from the other result that is obtained after analyzing the historical data from USGS and EPA for a nearby and unpolluted source of water. The USGS and EPA websites make it easier to find data from a nearby geographical region by making it possible to enter the desired location prior to searching for water quality data in their huge databases. In this way, it can be figured out if the water quality parameters of the particular ecological system varies wildly from a neighboring system that has almost the same geographical and ecological attributes.
@@ -70,7 +71,7 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 ## 8. References
 
-[^1]: Valada A., Velagapudi P., Kannan B., Tomaszewski C., Kantor G., Scerri P. (2014) Development of a Low Cost Multi-Robot Autonomous Marine Surface Platform. In: Yoshida K., Tadokoro S. (eds) Field and Service Robotics. Springer Tracts in Advanced Robotics, vol 92. Springer, Berlin, Heidelberg. <https://doi.org/10.1007/978-3-642-40686-7_43> 
+[^1]: Valada A., Velagapudi P., Kannan B., Tomaszewski C., Kantor G., Scerri P. (2014) Development of a Low Cost Multi-Robot Autonomous Marine Surface Platform. In: Yoshida K., Tadokoro S. (eds) Field and Service Robotics. Springer Tracts in Advanced Robotics, vol 92. Springer, Berlin, Heidelberg. <https://doi.org/10.1007/978-3-642-40686-7_43> <br />
 [^2]: M. Ludvigsen, J. Berge, M. Geoffroy, J. H. Cohen, P. R. De La Torre, S. M. Nornes, H. Singh, A. J. Sørensen, M. Daase, G. Johnsen, Use of an Autonomous Surface Vehicle reveals small-scale diel vertical migrations of zooplankton and susceptibility to light pollution under low solar irradiance. Sci. Adv. 4, eaap9887 (2018).
 
 
