@@ -14,7 +14,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** toxicology, pollution, autonomous systems, surface vehicle, water quality, data analysis, environment, big data, ecosystem 
+**Keywords:** toxicology, pollution, autonomous systems, surface vehicle, sensors, arduino, water quality, data analysis, environment, big data, ecosystem 
 
 ## 1. Introduction
 
