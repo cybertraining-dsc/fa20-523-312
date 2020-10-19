@@ -38,8 +38,6 @@ The third layer deals with symptoms-level evaluation. The result is stored as a 
 ### iv. COVID-19 Prediction
 Finally, the last layer involves the application of deep learning (DL) based algorithms to the input data for predicting whether the patient has been afflicted with the virus. A CNN and RNN based combined process is utilized here such that the system can analyze both the spatial data (viz. image pixels) as well as the temporal data (viz. text/signal information) [1].
 
-<br />
-
 ## 3. Discussions: </br>*Augmentation with Cloud-Comuputing capabilities* 
 
 To enhance the performance of this framework, the recorded data and predicted results can be uploaded to cloud-computing servers. This can help researchers and medical professionals from all around the globe in exchanging information and insights involving accurate patient diagnosis. Such applications are already developing. For instance, IBM recently launched the COVID-19 High Performance Computing Consortium [^2]. As the name suggests, this consortium has been explicitly designed to tackle the threat of COVID-19 by harnessing enormous computing power for streamlining the search for more information, aiding the hunt of possible treatment paths, and creating drug-and-disease based informational repositories that are made available to appropriate and eligible researchers and institutions strewn all across the globe [^2].    
