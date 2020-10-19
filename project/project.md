@@ -44,12 +44,20 @@ To answer the questions involving existence of multiple data-sets and motivation
 
 ### 4.1 Hardware Component
 
-A very rough outline of the autonomous surface vehicle (ASV) in question has been preceived in the Autodesk Fusion 360 software model. A preliminary model has been designed in this software so as to 3D print the system. It will then be interfaced with the appropriate sensors in question. Then system will be driven by an Arduino-Uno based microcontroller, and it will have different types of environmental sensors that will collect and log data. These sensors have been purchased from the vendor, "Atlas Scientific". As of now, the sensors that have been chosen for this ASV are as follows: 
+The rough outline of the autonomous surface vehicle (ASV) in question has been perceived in the Autodesk Fusion 360 software model. A preliminary model has been designed in this software so as to 3D print the system. It will then be interfaced with the appropriate sensors in question. Then system will be driven by an Arduino-Uno based microcontroller, and it will have different types of environmental sensors that will collect and log data. These sensors have been purchased from the vendor, "Atlas Scientific". As of now, the sensors that have been chosen for this ASV are as follows: 
 
 * PT-1000 Temperature sensor kit - <https://atlas-scientific.com/kits/pt-1000-temperature-kit/>
 * Potential of Hydrogen (pH) sensor kit - <https://atlas-scientific.com/kits/ph-kit/>
 * Dissolved Oxygen (DO) sensor kit - <https://atlas-scientific.com/kits/dissolved-oxygen-kit/>
 * Conductivity K 1.0 sensor kit - <https://atlas-scientific.com/kits/conductivity-k-1-0-kit/>
+
+A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system.
+
+![ASV from Fusion 360](images/SS1 v3.png)
+<p>
+    <img src="path_to_image" alt>
+    <em>Figure 1: Nascent framework of the ASV system in Fusion 360</em>
+</p>
 
 
 ### 4.2 Software Component
