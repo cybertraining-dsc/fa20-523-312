@@ -17,7 +17,11 @@ The research article describes a strategy which uses these various smartphone se
     <img src="path_to_image" alt>
     <em>Figure 1: Smartphone-based framework for COVID-19 testing Source: Adapted from [^1]</em>
 </p>
-
+<p align="center">
+ <img src="path_to_image" alt="train_perf_fig" height="640" width="960"/>
+    <br>
+    <em>Smartphone-based framework for COVID-19 testing; Source: Adapted from [^1]</em>
+</p>
 
 
 The above framework can be sub-divided into four important layers which provides further insights into the different procedures going on in the background while the system makes the disease predictions.
