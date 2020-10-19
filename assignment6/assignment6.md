@@ -4,7 +4,7 @@
 
 Saptarshi Sinha, [fa20-523-312](https://github.com/cybertraining-dsc/fa20-523-312/), [Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/master/project/project.md)
 
-**Keywords:** smartphone, neural networks, CNN, RNN, embedded sensors, symptom detection, cloud computing, ibm
+**Keywords:** smartphone, neural networks, CNN, RNN, embedded sensors, symptom detection, cloud computing
 
 ## 1. Background: *The need for smarter and pervasive COVID-19 monitoring* 
 
