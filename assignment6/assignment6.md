@@ -20,7 +20,6 @@ The research article describes a strategy which uses these various smartphone se
 
 The above framework can be sub-divided into four important layers which provides further insights into the different procedures going on in the background while the system makes the disease predictions.
 
-<br />
 
 ### i. Reading 
 The first layer involves reading based functionalities for the data coming from different smartphone sensors. This could refer to arrays of different types of data coming from different sources (viz. CT scan imageries, accelerometer readings, microphone sound signals, etc.).
