@@ -34,5 +34,5 @@ All in all, it is indeed very commendable on the part of these researchers to fa
 
 ## References:
 
-[^1]: Maghdid, Halgurd S., et al. “A Novel AI-Enabled Framework to Diagnose Coronavirus COVID 19 Using Smartphone Embedded Sensors: Design Study.” ArXiv:2003.07434 [Cs, q-Bio], May 2020. arXiv.org, <http://arxiv.org/abs/2003.07434>
+[^1]: Maghdid, Halgurd S., et al. “A Novel AI-Enabled Framework to Diagnose Coronavirus COVID 19 Using Smartphone Embedded Sensors: Design Study.” ArXiv:2003.07434 [Cs, q-Bio], May 2020. arXiv.org, <http://arxiv.org/abs/2003.07434> </br>
 [^2]: D. Gil, “IBM Releases Novel AI-Powered Technologies to Help Health and Research Community Accelerate the Discovery of Medical Insights and Treatments for COVID-19”, ibm.com, Apr. 3, 2020. [Online]. Available: <https://www.ibm.com/blogs/research/2020/04/ai-powered-technologies-accelerate-discovery-covid-19/> [Accessed Oct. 17, 2020]
