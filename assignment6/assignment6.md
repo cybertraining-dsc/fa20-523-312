@@ -12,7 +12,7 @@ Cornell University’s archive on Human Computer Interaction (HCI) features a re
 
 The research article describes a strategy which uses these various smartphone sensors and their respective algorithms. This is followed up by creating a dataset record comprising predicted levels of the different symptoms which are collected from different patients and studied using deep learning approaches [^1]. Chiefly, it uses Convolutional Neural Networks (CNN) to analyze spatial data (viz. imaging data from the camera sensor), and Recurrent Neural Networks (RNN) for temporal data (viz. signal or text-based measurements) [^1]. The entire prediction-based framework can be summarized as follows:
 
-![Smartphone-based framework for COVID-19 testing](https://arxiv.org/ftp/arxiv/papers/2003/2003.07434.pdf) 
+![Smartphone-based framework for COVID-19 testing](https://github.com/cybertraining-dsc/fa20-523-312/tree/master/assignment6/images/Picture1.jpg?raw=true) 
 Figure 1: Smartphone-based framework for COVID-19 testing
 Source: Adapted from [^1]
 
