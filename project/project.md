@@ -51,7 +51,7 @@ The rough outline of the autonomous surface vehicle (ASV) in question has been p
 * Dissolved Oxygen (DO) sensor kit - <https://atlas-scientific.com/kits/dissolved-oxygen-kit/>
 * Conductivity K 1.0 sensor kit - <https://atlas-scientific.com/kits/conductivity-k-1-0-kit/>
 
-A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system.
+A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system (see Figure 1).
 
 ![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/ASVSS1.png)
      
