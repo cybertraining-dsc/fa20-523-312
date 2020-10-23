@@ -55,7 +55,7 @@ A very rudimentary framework of the system has been realized in the Autodesk Fus
 
 ![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/ASVSS1.png)
      
-**Figure 1:** Nascent framework of the ASV system in Fusion 360</em>
+**Figure 1:** Nascent framework of the ASV system in Fusion 360
 
 
 ### 4.2 Software Component
