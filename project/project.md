@@ -54,10 +54,8 @@ The rough outline of the autonomous surface vehicle (ASV) in question has been p
 A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system.
 
 ![ASV from Fusion 360](images/ASVSS1.png)
-<p>
-    <img src="path_to_image" alt>
-    <em>Figure 1: Nascent framework of the ASV system in Fusion 360</em>
-</p>
+     
+**Figure 1:** Nascent framework of the ASV system in Fusion 360</em>
 
 
 ### 4.2 Software Component
