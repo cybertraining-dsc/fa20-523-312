@@ -107,11 +107,11 @@ The first preliminary set of results are displayed below. Here, the content of t
      
 **Figure 5:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
 
-### First Benchmark results (Expected - November 11):
+- First Benchmark results (Expected - November 11):
 
-### Second Benchmark results (Expected - November 13):
+- Second Benchmark results (Expected - November 13):
 
-### Third Benchmark results (Expected - November 15):
+- Third Benchmark results (Expected - November 15):
 
 
 ## 6. Conclusion
