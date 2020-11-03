@@ -89,7 +89,7 @@ The first preliminary set of results are displayed below. Here, the content of t
      
 **Figure 2:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Temperature"
 
-![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_cond.png)
+![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_cond.png)
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_cond.png)
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_cond.png)
      
