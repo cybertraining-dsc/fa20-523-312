@@ -34,7 +34,7 @@ As mentioned in the previous section, this research project will exhaustively fo
 
 Upon exploring a wide array of available datasets, the following data repositories were chosen to get the required water quality based data over a particular period of time and for a particular geographical region.   
 
-1. USGS Water Quality Data: <https://waterdata.usgs.gov/nwis/qw>
+1. [USGS Water Quality Data](https://waterdata.usgs.gov/nwis/qw> [^usgs-data]
 2. EPA Water Quality Data: <https://www.epa.gov/waterdata/water-quality-data-download>
 
 The USGS dataset is very commensurate with the research goal of this endeavor and hence, focus will be put more on the USGS dataset over the EPA dataset. Some previous work was conducted on this USGS dataset by a particular research team [^3]. However, the emphasis of such work was done from a very broad perspective so as to create an overview of how to use and visualize the data from the USGS water quality portal. Besides, such a work emphasizes on characterizing the seasonal variation of lake water clarity in different regions throughout the continental US, something that is very deviant from what would be addressed in this particular article which majorly involves environmental degradation and toxicology analysis using an autonomous surface vehicle.  
@@ -132,6 +132,6 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^4]: Verfuss U., et al., (2019, March). A review of unmanned vehicles for the detection and monitoring of marine fauna. Marine Pollution Bulletin, Volume 140, Pages 17-29. Retrieved from <https://doi.org/10.1016/j.marpolbul.2019.01.009>
 
-
+[^usgs-data]: USGS Water Quality Data, Accessed: Nov 2020, <https://waterdata.usgs.gov/nwis/qw>
 
 
