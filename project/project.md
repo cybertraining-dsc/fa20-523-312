@@ -25,7 +25,7 @@ Toxicity analysis of ecologically vulnerable water-bodies, or any other marine e
 
 ## 2. Background Research and Previous Work
 
-After reviewing the necessary background literture and previous work that has been done in this field, it can be stated that most of such endeavors focussed majorly on continuous environmental data collection with the help of sensors attached to a stationary buoy in a particular location of a water-body. Some of the other endeavors did involve deploying a non-stationary vehicle that collected data from large swaths of geographical areas in various water bodies [^1], while some others focussed on niche areas involving migration pattern exhibited by zooplanktons upon natural and aritifical irradiance [^2]. However, neither did such attempts focus much on the data analysis portion for multiple sensory input(s) nor did it involve an intricate procedure to compare the collected data with historical trends so as to arrive at a suitable conclusion regarding the extent of environmental degradation.
+After reviewing the necessary background literture and previous work that has been done in this field, it can be stated that most of such endeavors focussed majorly on continuous environmental data collection with the help of sensors attached to a stationary buoy in a particular location of a water-body. Some of the other endeavors did involve deploying a non-stationary vehicle that collected data from large swaths of geographical areas in various water bodies [^1]. Other research attempts focussed on niche areas such as study of the migration pattern exhibited by zooplanktons upon natural and aritifical irradiance [^2], and detection and monitoring of marine fauna [^4]. However, neither did such attempts focus much on the data analysis portion for multiple sensory input(s) nor did it involve an intricate procedure to compare the collected data with historical trends so as to arrive at a suitable conclusion regarding the extent of environmental degradation.
 
 As mentioned in the previous section, this research project will exhaustively focus not just on the data-collection portion by a non-stationary vehicle, but it will also involve employing deeper study towards the subject of big-data analysis of both the current data of the system in question and the past data obtained for similar aquatic profiles. In this way, it would be possible to learn more about the toxicological aspects of the ecosystem in question.
 
@@ -37,7 +37,9 @@ Upon exploring a wide array of available datasets, the following data repositori
 1. USGS Water Quality Data: <https://waterdata.usgs.gov/nwis/qw>
 2. EPA Water Quality Data: <https://www.epa.gov/waterdata/water-quality-data-download>
 
-To answer the questions involving existence of multiple data-sets and motivation of using multiple data-sets, we must keep in mind that the very nature of this study is based on historical trends of the nature of water-quality in a particular region from the past and how it relates to the current situation. Because of these reasons, multiple data-sets will be referred to from multiple sources so as to achieve robust data-analytical results. This would ensure that too much focus is not given on outlier cases, that may be relevant to just a particular geographical region or an aberration in the data that may only have arisen due to an unknown underlying phenomenon or some form of cataclysmic event from the past. Using multiple datasets from different sources would help to get a resultant data structure that is more likely to converge towards an approximate level of historical thresholds and which can then be used to find out how the current observed data deviates from such previous patterns.
+The USGS dataset is very commensurate with the research goal of this endeavor and hence, focus will be put more on the USGS dataset over the EPA dataset. Some previous work was conducted on this USGS dataset by a particular research team [^3]. However, the emphasis of such work was done from a very broad perspective so as to create an overview of how to use and visualize the data from the USGS water quality portal. Besides, such a work emphasizes on characterizing the seasonal variation of lake water clarity in different regions throughout the continental US, something that is very deviant from what would be addressed in this particular article which majorly involves environmental degradation and toxicology analysis using an autonomous surface vehicle.  
+
+To address the questions involving existence of multiple data-sets and motivation of using multiple data-sets, we must keep in mind that the very nature of this study is based on historical trends of the nature of water-quality in a particular region from the past and how it relates to the current situation. Because of these reasons, multiple data-sets will be referred to from multiple sources so as to achieve robust data-analytical results. This would ensure that too much focus is not given on outlier cases, that may be relevant to just a particular geographical region or an aberration in the data that may only have arisen due to an unknown underlying phenomenon or some form of cataclysmic event from the past. Using multiple datasets from different sources would help to get a resultant data structure that is more likely to converge towards an approximate level of historical thresholds and which can then be used to find out how the current observed data deviates from such previous patterns.
    
 
 ## 4. Methodology
@@ -77,11 +79,44 @@ The establishment of the degree of variance of the data from the historical data
 
 ## 5. Inference
 
-This section will be addressed upon project completion.
+NOTE: This section will continue to be updated until project completion.
+
+The first preliminary set of results are displayed below. Here, the content of the dataset, after it is processed in a software architecture, is shown and it displays the alteration of the values (expressed in line plots, scatter plots, and histograms) of the four main water-quality parameters (viz. Temperature, Specific Conductance, pH, and Dissolved Oxygen) over the period of time that starts from October 9, 2020 to October 16, 2020.
+
+![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_temp.png)
+![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_temp.png)
+![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_temp.png)
+     
+**Figure 2:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Temperature"
+
+![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_cond.png)
+![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_cond.png)
+![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_cond.png)
+     
+**Figure 3:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Specific Conductance"
+
+![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_pH.png)
+![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_pH.png)
+![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_pH.png)
+     
+**Figure 4:** Line, Scatter, and Histogram plots for the water-quality parameter involving "pH"
+
+![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_dO2.png)
+![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_dO2.png)
+![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_dO2.png)
+     
+**Figure 5:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
+
+### First Benchmark results (Expected - November 11):
+
+### Second Benchmark results (Expected - November 13):
+
+### Third Benchmark results (Expected - November 15):
+
 
 ## 6. Conclusion
 
-This section will be addressed upon project completion.
+NOTE: This section will be addressed upon project completion.
 
 ## 7. Acknowledgements
 
@@ -92,6 +127,10 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 [^1]: Valada A., Velagapudi P., Kannan B., Tomaszewski C., Kantor G., Scerri P. (2014) Development of a Low Cost Multi-Robot Autonomous Marine Surface Platform. In: Yoshida K., Tadokoro S. (eds) Field and Service Robotics. Springer Tracts in Advanced Robotics, vol 92. Springer, Berlin, Heidelberg. <https://doi.org/10.1007/978-3-642-40686-7_43>
 
 [^2]: M. Ludvigsen, J. Berge, M. Geoffroy, J. H. Cohen, P. R. De La Torre, S. M. Nornes, H. Singh, A. J. Sørensen, M. Daase, G. Johnsen, Use of an Autonomous Surface Vehicle reveals small-scale diel vertical migrations of zooplankton and susceptibility to light pollution under low solar irradiance. Sci. Adv. 4, eaap9887 (2018). <https://advances.sciencemag.org/content/4/1/eaap9887/tab-pdf>
+
+[^3]: Read, E. K., Carr, L., De Cicco, L., Dugan, H. A., Hanson, P. C., Hart, J. A., Kreft, J., Read, J. S., and Winslow, L. A. (2017), Water quality data for national‐scale aquatic research: The Water Quality Portal, Water Resour. Res., 53, 1735– 1745, doi:10.1002/2016WR019993. <https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016WR019993>
+
+[^4]: Verfuss U., et al., (2019, March). A review of unmanned vehicles for the detection and monitoring of marine fauna. Marine Pollution Bulletin, Volume 140, Pages 17-29. Retrieved from <https://doi.org/10.1016/j.marpolbul.2019.01.009>
 
 
 
