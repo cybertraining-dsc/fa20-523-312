@@ -78,9 +78,9 @@ The establishment of the degree of variance of the data from the historical data
 
 The software logic is included at <https://github.com/cybertraining-dsc/fa20-523-312/blob/master/project/code/toxicologyASV.ipynb>. It helps in postulating the inferences and conclusions of this research attempt, and which are described in detail in the subsequent sections. This is majorly achieved in the following manner:
 
-i. First, the collected data was plotted (that was obtained for a particular duration of time in a specific seasonal time of the year) to observe the overall trends of the variation of the four water-quality parameters. This gives an approximate idea regarding what we should normally expect from the water-quality data and which further helps in detecting any kind of outlier/aberrant situations that might arise either due to the presence of artifacts, or nuisance environmental variables. 
-ii. This part will be updated soon.
-iii. This part will be updated soon.
+- First, the collected data was plotted (that was obtained for a particular duration of time in a specific seasonal time of the year) to observe the overall trends of the variation of the four water-quality parameters. This gives an approximate idea regarding what we should normally expect from the water-quality data and which further helps in detecting any kind of outlier/aberrant situations that might arise either due to the presence of artifacts, or nuisance environmental variables. 
+- This part will be updated soon.
+- This part will be updated soon.
 
 Furthermore, the code has been appropriately commented and documented in such a way that it can be easily reproduced. Important instructions and vital information about different aspects of the code have been properly written down wherever necessary.
 
