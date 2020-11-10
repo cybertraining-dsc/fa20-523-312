@@ -89,31 +89,38 @@ Furthermore, the code has been appropriately commented and documented in such a 
 
 NOTE: This section will continue to be updated until project completion.
 
-The first preliminary set of results are displayed below. Here, the content of the dataset, after it is processed in a software architecture, is shown and it displays the alteration of the values (expressed in line plots, scatter plots, and histograms) of the four main water-quality parameters (viz. Temperature, Specific Conductance, pH, and Dissolved Oxygen) over the period of time that starts from October 9, 2020 to October 16, 2020.
+The first preliminary set of results are displayed below. To get a better idea, the processed data (viewed as a data-frame in python) was first analyzed to understand the four primary water-quality parameters that are being worked upon. The data-frame for one of the big data sets is shown below, along with the median values that were evalauted for the respective parameters.
+
+![Preliminary results](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/prelimresults.png)
+**Figure 2:** First set of preliminary output results (in python data-frame) and median values for the four water-quality parameters
+
+In the above set of results, it should be worthwhile to note that temperature is measured in the celsius scale, specific conductance is measured in microsiemens per centimeter at 25 degree celsius, pH is measured in the usual standard range (between 0-14), and the level of dissolved oxygen is measured in milligrams per liter.
+
+Next, the content of the dataset, after it is processed in a software architecture, is shown and it displays the alteration of the values (expressed in line plots, scatter plots, and histograms) of the four main water-quality parameters (viz. Temperature, Specific Conductance, pH, and Dissolved Oxygen) over the period of time that starts from October 9, 2020 to October 16, 2020.
 
 ![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_temp.png)
 ![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_temp.png)
 ![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_temp.png)
      
-**Figure 2:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Temperature"
+**Figure 3:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Temperature"
 
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_cond.png)
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_cond.png)
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_cond.png)
      
-**Figure 3:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Specific Conductance"
+**Figure 4:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Specific Conductance"
 
 ![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_pH.png)
 ![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_pH.png)
 ![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_pH.png)
      
-**Figure 4:** Line, Scatter, and Histogram plots for the water-quality parameter involving "pH"
+**Figure 5:** Line, Scatter, and Histogram plots for the water-quality parameter involving "pH"
 
 ![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_dO2.png)
 ![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_dO2.png)
 ![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_dO2.png)
      
-**Figure 5:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
+**Figure 6:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
 
 - First Benchmark results (Expected - November 11)
 
