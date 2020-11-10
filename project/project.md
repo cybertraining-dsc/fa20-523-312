@@ -124,6 +124,7 @@ Next, the content of the dataset, after it is processed in a software architectu
 **Figure 6:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
 
 - First Benchmark results (Expected - November 11)
+NOTE: The first set of benchmark results have already been obtained in the trial run (refer to code). However, this will be further enriched and replaced by a future version.
 
 - Second Benchmark results (Expected - November 13)
 
