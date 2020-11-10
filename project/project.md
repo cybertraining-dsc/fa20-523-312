@@ -92,6 +92,7 @@ NOTE: This section will continue to be updated until project completion.
 The first preliminary set of results are displayed below. To get a better idea, the processed data (viewed as a data-frame in python) was first analyzed to understand the four primary water-quality parameters that are being worked upon. The data-frame for one of the big data sets is shown below, along with the median values that were evalauted for the respective parameters.
 
 ![Preliminary results](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/prelimresults.png)
+
 **Figure 2:** First set of preliminary output results (in python data-frame) and median values for the four water-quality parameters
 
 In the above set of results, it should be worthwhile to note that temperature is measured in the celsius scale, specific conductance is measured in microsiemens per centimeter at 25 degree celsius, pH is measured in the usual standard range (between 0-14), and the level of dissolved oxygen is measured in milligrams per liter.
