@@ -1,5 +1,7 @@
 # Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
 
+[![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions)
+
 Saptarshi Sinha, [fa20-523-312](https://github.com/cybertraining-dsc/fa20-523-312/), [Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/master/project/project.md)
 
 {{% pageinfo %}}
