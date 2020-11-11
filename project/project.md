@@ -2,7 +2,7 @@
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions)
 
-Saptarshi Sinha, [fa20-523-312](https://github.com/cybertraining-dsc/fa20-523-312/), [Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/master/project/project.md)
+Saptarshi Sinha, [fa20-523-312](https://github.com/cybertraining-dsc/fa20-523-312/), [Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md)
 
 {{% pageinfo %}}
 
@@ -57,7 +57,7 @@ The rough outline of the autonomous surface vehicle (ASV) in question has been p
 
 A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system (see Figure 1).
 
-![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/ASVSS1.png)
+![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/ASVSS1.png)
      
 **Figure 1:** Nascent framework of the ASV system in Fusion 360
 
@@ -78,7 +78,7 @@ After the data has been collected by the ASV either on a temporal scale (over a 
 
 The establishment of the degree of variance of the data from the historical data will be carried out by documenting the particular quartile range that the current data lies in with respect to the median data that is obtained from the past/historical datasets. For instance, if the current data resides in the second quartile, it can be demarcated as being more or less consistent with previously established values. However, if it resides in the first or third quartile then it might will that the system has aberrant aspects which might need to be investigated for possible levels of outside pollutants (viz. industrial effluents, agricultural wash-off, etc.), or presence of harmful invasive species that might be altering the delicate natural balance of the ecosystem in question.
 
-The software logic is included at <https://github.com/cybertraining-dsc/fa20-523-312/blob/master/project/code/toxicologyASV.ipynb>. It helps in postulating the inferences and conclusions of this research attempt, and which are described in detail in the subsequent sections. This is majorly achieved in the following manner:
+The software logic is included at <https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb>. It helps in postulating the inferences and conclusions of this research attempt, and which are described in detail in the subsequent sections. This is majorly achieved in the following manner:
 
 - First, the collected data was plotted (that was obtained for a particular duration of time in a specific seasonal time of the year) to observe the overall trends of the variation of the four water-quality parameters. This gives an approximate idea regarding what we should normally expect from the water-quality data and which further helps in detecting any kind of outlier/aberrant situations that might arise either due to the presence of artifacts, or nuisance environmental variables. 
 - This part will be updated soon.
@@ -93,7 +93,7 @@ NOTE: This section will continue to be updated until project completion.
 
 The first preliminary set of results are displayed below. To get a better idea, the processed data (viewed as a data-frame in python) was first analyzed to understand the four primary water-quality parameters that are being worked upon. The data-frame for one of the big data sets is shown below, along with the median values that were evalauted for the respective parameters.
 
-![Preliminary results](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/prelimresults.png)
+![Preliminary results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/prelimresults.png)
 
 **Figure 2:** First set of preliminary output results (in python data-frame) and median values for the four water-quality parameters
 
@@ -101,27 +101,27 @@ In the above set of results, it should be worthwhile to note that temperature is
 
 Next, the content of the dataset, after it is processed in a software architecture, is shown and it displays the alteration of the values (expressed in line plots, scatter plots, and histograms) of the four main water-quality parameters (viz. Temperature, Specific Conductance, pH, and Dissolved Oxygen) over the period of time that starts from October 9, 2020 to October 16, 2020.
 
-![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_temp.png)
-![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_temp.png)
-![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_temp.png)
+![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_temp.png)
+![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_temp.png)
+![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_temp.png)
      
 **Figure 3:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Temperature"
 
-![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_cond.png)
-![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_cond.png)
-![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_cond.png)
+![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_cond.png)
+![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_cond.png)
+![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_cond.png)
      
 **Figure 4:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Specific Conductance"
 
-![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_pH.png)
-![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_pH.png)
-![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_pH.png)
+![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_pH.png)
+![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_pH.png)
+![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_pH.png)
      
 **Figure 5:** Line, Scatter, and Histogram plots for the water-quality parameter involving "pH"
 
-![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/L_dO2.png)
-![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/S_dO2.png)
-![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/master/project/images/H_dO2.png)
+![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_dO2.png)
+![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_dO2.png)
+![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_dO2.png)
      
 **Figure 6:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
 
