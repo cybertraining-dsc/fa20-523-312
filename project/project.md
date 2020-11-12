@@ -127,7 +127,7 @@ Next, the content of the dataset, after it is processed in a software architectu
 
 - First Benchmark results (To be updated further)
 
-![First Benchmark results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/firstbnmrk.PNG)
+![First Benchmark results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/firstbnmk.png)
      
 **Figure 7:** First Benchmark results for the created data analysis framework 
 
