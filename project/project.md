@@ -127,6 +127,8 @@ Next, the content of the dataset, after it is processed in a software architectu
      
 **Figure 6:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
 
+### Benchmark Results
+
 - First Benchmark results (To be updated further)
 
 ![First Benchmark results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/firstbnmk.png)
