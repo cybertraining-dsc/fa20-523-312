@@ -140,9 +140,8 @@ Next, the content of the dataset, after it is processed in a software architectu
      
 **Figure 7:** First Benchmark results for the created data analysis framework 
 
-- Second Benchmark results (Expected - November 13)
-
-- Third Benchmark results (Expected - November 15)
+- Second Benchmark results (Will be updated soon)
+- Third Benchmark results (Will be updated soon)
 
 
 ## 6. Conclusion
