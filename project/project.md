@@ -9,6 +9,8 @@
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions)
 
+* Status: in progress
+
 Saptarshi Sinha, [fa20-523-312](https://github.com/cybertraining-dsc/fa20-523-312/), [Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md)
 
 {{% pageinfo %}}
