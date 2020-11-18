@@ -7,7 +7,7 @@
 - [ ] Extension for project granted till last day of regular semester in December
 - [ ] modification of report beyond that granted and expected according to author
 
-[![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions) Status: in progress
+[![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions) ![Status](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg) Status: in progress
 
 Saptarshi Sinha, [fa20-523-312](https://github.com/cybertraining-dsc/fa20-523-312/), [Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md)
 
