@@ -43,15 +43,15 @@ As mentioned in the previous section, this research project will exhaustively fo
 
 ## 3. Choice of Data-sets
 
-Upon exploring a wide array of available datasets, the following data repositories were chosen to get the required water quality based data over a particular period of time and for a particular geographical region:  
+Upon exploring a wide array of available datasets, the following data repositories were chosen to get the required water quality based data over a particular period of time and for a particular geographical region:
 
 1. [USGS Water Quality Data](https://waterdata.usgs.gov/nwis/qw) [^4]
 2. [EPA Water Quality Data](https://www.epa.gov/waterdata/water-quality-data-download) [^5]
 
-The USGS dataset is very commensurate with the research goal of this endeavor and hence, focus will be put more on the USGS dataset over the EPA dataset. Some previous work was conducted on this USGS dataset by a particular research team [^6]. However, the emphasis of such work was done from a very broad perspective so as to create an overview of how to use and visualize the data from the USGS water quality portal. Besides, such a work emphasizes on characterizing the seasonal variation of lake water clarity in different regions throughout the continental US, something that is very deviant from what would be addressed in this particular article which majorly involves environmental degradation and toxicology analysis using an autonomous surface vehicle.  
+The USGS dataset is very commensurate with the research goal of this endeavor and hence, focus will be put more on the USGS dataset over the EPA dataset. Some previous work was conducted on this USGS dataset by a particular research team [^6]. However, the emphasis of such work was done from a very broad perspective so as to create an overview of how to use and visualize the data from the USGS water quality portal. Besides, such a work emphasizes on characterizing the seasonal variation of lake water clarity in different regions throughout the continental US, something that is very deviant from what would be addressed in this particular article which majorly involves environmental degradation and toxicology analysis using an autonomous surface vehicle.
 
 To address the questions involving existence of multiple data-sets and motivation of using multiple data-sets, we must keep in mind that the very nature of this study is based on historical trends of the nature of water-quality in a particular region from the past and how it relates to the current situation. Because of these reasons, multiple data-sets will be referred to from multiple sources so as to achieve robust data-analytical results. This would ensure that too much focus is not given on outlier cases, that may be relevant to just a particular geographical region or an aberration in the data that may only have arisen due to an unknown underlying phenomenon or some form of cataclysmic event from the past. Using multiple datasets from different sources would help to get a resultant data structure that is more likely to converge towards an approximate level of historical thresholds and which can then be used to find out how the current observed data deviates from such previous patterns.
-   
+
 
 ## 4. Methodology
 
@@ -67,7 +67,7 @@ The rough outline of the autonomous surface vehicle (ASV) in question has been p
 A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system (see Figure 1).
 
 ![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/ASVSS1.png)
-     
+
 **Figure 1:** Nascent framework of the ASV system in Fusion 360
 
 With the chassis framework out of the way, a careful analysis was conducted towards the successful developmental work to be done to complete the build process for a fully functional prototype ASV. In essence, an ASV can be thought of being composed of certain key sub-elements. From a broad perspective, they comprise the hardware makeup, a suitable propulsion system, a sensing system, a communication system, and an appropriate source of onboard power source. The hardware makeup being out of the way, the other aspects can now be elaborated as follows:
@@ -113,25 +113,25 @@ Next, the content of the dataset, after it is processed in a software architectu
 ![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_temp.png)
 ![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_temp.png)
 ![Temperature plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_temp.png)
-     
+
 **Figure 3:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Temperature"
 
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_cond.png)
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_cond.png)
 ![Specific Conductance plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_cond.png)
-     
+
 **Figure 4:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Specific Conductance"
 
 ![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_pH.png)
 ![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_pH.png)
 ![pH plots](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_pH.png)
-     
+
 **Figure 5:** Line, Scatter, and Histogram plots for the water-quality parameter involving "pH"
 
 ![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/L_dO2.png)
 ![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/S_dO2.png)
 ![Dissolved Oxygen level](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/H_dO2.png)
-     
+
 **Figure 6:** Line, Scatter, and Histogram plots for the water-quality parameter involving "Dissolved Oxygen level"
 
 ### Benchmark Results
@@ -139,7 +139,7 @@ Next, the content of the dataset, after it is processed in a software architectu
 - First Benchmark results (To be updated further)
 
 ![First Benchmark results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/firstbnmk.png)
-     
+
 **Figure 7:** First Benchmark results for the created data analysis framework 
 
 - Second Benchmark results (Will be updated soon)
