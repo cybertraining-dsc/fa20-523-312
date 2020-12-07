@@ -87,7 +87,7 @@ After the data has been collected by the ASV either on a temporal scale (over a 
 
 The establishment of the degree of variance of the data from the historical data will be carried out by documenting the particular quartile range that the current data lies in with respect to the median data that is obtained from the past/historical datasets. For instance, if the current data resides in the second quartile, it can be demarcated as being more or less consistent with previously established values. However, if it resides in the first or third quartile then it might will that the system has aberrant aspects which might need to be investigated for possible levels of outside pollutants (viz. industrial effluents, agricultural wash-off, etc.), or presence of harmful invasive species that might be altering the delicate natural balance of the ecosystem in question.
 
-The software logic is included at this particular [link](https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb). It has been created using the Google Colaboratory platform, or simply Colab [^8]. It helps in postulating the inferences and conclusions of this research attempt, and which are described in detail in the subsequent sections. This is majorly achieved in the following manner:
+The software logic can be located at this [link](https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb) [^8]. It has been created using the aid of Google Colaboratory platform, or simply Colab [^9]. It helps in postulating the inferences and conclusions of this research attempt, and which are described in detail in the subsequent sections. This is majorly achieved in the following manner:
 
 - First, the collected data was plotted (that was obtained for a particular duration of time in a specific seasonal time of the year) to observe the overall trends of the variation of the four water-quality parameters. This gives an approximate idea regarding what we should normally expect from the water-quality data and which further helps in detecting any kind of outlier/aberrant situations that might arise either due to the presence of artifacts, or nuisance environmental variables. 
 - This part will be updated soon.
@@ -170,4 +170,6 @@ The author would like to thank Dr. Gregor von Laszewski, Dr. Geoffrey Fox, and t
 
 [^7]: Atlas Scientific team. *Atlas Scientific Environmental Robotics*. Retrieved from <https://atlas-scientific.com/>
 
-[^8]: Google Colaboratory team. *Google Colaboratory*. Retrieved from <https://colab.research.google.com/>
+[^8]: Sinha, Saptarshi. (2020) *A Big-data analysis framework for Toxicological Study*. Retrieved from <https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb>
+
+[^9]: Google Colaboratory team. *Google Colaboratory*. Retrieved from <https://colab.research.google.com/>
