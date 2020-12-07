@@ -1,6 +1,6 @@
 # Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
 
-- [ ] Please use references instead of using URLs to cite the work. 
+- [x] Please use references instead of using URLs to cite the work. 
 - [ ] Benchmark the separate parts of your analysis
 - [ ] verify if you need time on the x axis, datapoints would not allow to relate the points if they are gathered in different time intervals. THis has to be clarified while revieing the original data, 
 - [ ] some plots seem only to be distinguished by the plotstyle but may not be content different. PLease verify
@@ -57,16 +57,16 @@ To address the questions involving existence of multiple data-sets and motivatio
 
 ### 4.1 Hardware Component
 
-The rough outline of the autonomous surface vehicle (ASV) in question has been perceived in the Autodesk Fusion 360 software model. A preliminary model has been designed in this software so as to 3D print the system. It will then be interfaced with the appropriate sensors in question. Then system will be driven by an Arduino-Uno based microcontroller, and it will have different types of environmental sensors that will collect and log data. These sensors have been purchased from the vendor, "Atlas Scientific". As of now, the sensors that have been chosen for this ASV are as follows: 
+The rough outline of the autonomous surface vehicle (ASV) in question has been perceived in the Autodesk Fusion 360 software model. A preliminary model has been designed in this software so as to 3D print the system. It will then be interfaced with the appropriate sensors in question. Then system will be driven by an Arduino-Uno based microcontroller, and it will have different types of environmental sensors that will collect and log data. These sensors have been purchased from the vendor, "Atlas Scientific" [^7]. As of now, the sensors that have been chosen for this ASV are as follows: 
 
-* PT-1000 Temperature sensor kit - <https://atlas-scientific.com/kits/pt-1000-temperature-kit/>
-* Potential of Hydrogen (pH) sensor kit - <https://atlas-scientific.com/kits/ph-kit/>
-* Dissolved Oxygen (DO) sensor kit - <https://atlas-scientific.com/kits/dissolved-oxygen-kit/>
-* Conductivity K 1.0 sensor kit - <https://atlas-scientific.com/kits/conductivity-k-1-0-kit/>
+* [PT-1000 Temperature sensor kit](https://atlas-scientific.com/kits/pt-1000-temperature-kit/)
+* [Potential of Hydrogen (pH) sensor kit](https://atlas-scientific.com/kits/ph-kit/)
+* [Dissolved Oxygen (DO) sensor kit](https://atlas-scientific.com/kits/dissolved-oxygen-kit/)
+* [Conductivity K 1.0 sensor kit](https://atlas-scientific.com/kits/conductivity-k-1-0-kit/)
 
 A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system (see Figure 1).
 
-![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/ASVSS1.png)
+![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/asvdesign.png)
 
 **Figure 1:** Nascent framework of the ASV system in Fusion 360
 
@@ -87,7 +87,7 @@ After the data has been collected by the ASV either on a temporal scale (over a 
 
 The establishment of the degree of variance of the data from the historical data will be carried out by documenting the particular quartile range that the current data lies in with respect to the median data that is obtained from the past/historical datasets. For instance, if the current data resides in the second quartile, it can be demarcated as being more or less consistent with previously established values. However, if it resides in the first or third quartile then it might will that the system has aberrant aspects which might need to be investigated for possible levels of outside pollutants (viz. industrial effluents, agricultural wash-off, etc.), or presence of harmful invasive species that might be altering the delicate natural balance of the ecosystem in question.
 
-The software logic is included at <https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb>. It helps in postulating the inferences and conclusions of this research attempt, and which are described in detail in the subsequent sections. This is majorly achieved in the following manner:
+The software logic is included at this particular [link](https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb). It has been created using the Google Colaboratory platform, or simply Colab [^8]. It helps in postulating the inferences and conclusions of this research attempt, and which are described in detail in the subsequent sections. This is majorly achieved in the following manner:
 
 - First, the collected data was plotted (that was obtained for a particular duration of time in a specific seasonal time of the year) to observe the overall trends of the variation of the four water-quality parameters. This gives an approximate idea regarding what we should normally expect from the water-quality data and which further helps in detecting any kind of outlier/aberrant situations that might arise either due to the presence of artifacts, or nuisance environmental variables. 
 - This part will be updated soon.
@@ -152,7 +152,7 @@ NOTE: This section will be addressed upon project completion.
 
 ## 7. Acknowledgements
 
-The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
+The author would like to thank Dr. Gregor von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
 
 ## 8. References
 
@@ -167,3 +167,7 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 [^5]: EPA Water Quality Data, Accessed Nov. 2020, <https://www.epa.gov/waterdata/water-quality-data-download>
 
 [^6]: Read, E. K., Carr, L., De Cicco, L., Dugan, H. A., Hanson, P. C., Hart, J. A., Kreft, J., Read, J. S., and Winslow, L. A. (2017), Water quality data for national‐scale aquatic research: The Water Quality Portal, Water Resour. Res., 53, 1735– 1745, doi:10.1002/2016WR019993. <https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016WR019993>
+
+[^7]: Atlas Scientific team. Atlas Scientific Environmental Robotics. Retrieved from <https://atlas-scientific.com/>
+
+[^8]: Google Colaboratory team. Google Colaboratory. Retrieved from <https://colab.research.google.com/>
