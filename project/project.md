@@ -1,6 +1,6 @@
 # Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
 
-- [x] Please use references instead of using URLs to cite the work. 
+- [x] Please use references instead of using URLs to cite the work. (Response: Appropriate references have been incorporated.) 
 - [ ] Benchmark the separate parts of your analysis
 - [ ] verify if you need time on the x axis, datapoints would not allow to relate the points if they are gathered in different time intervals. THis has to be clarified while revieing the original data, 
 - [ ] some plots seem only to be distinguished by the plotstyle but may not be content different. PLease verify
@@ -59,10 +59,10 @@ To address the questions involving existence of multiple data-sets and motivatio
 
 The rough outline of the autonomous surface vehicle (ASV) in question has been perceived in the Autodesk Fusion 360 software model. A preliminary model has been designed in this software so as to 3D print the system. It will then be interfaced with the appropriate sensors in question. Then system will be driven by an Arduino-Uno based microcontroller, and it will have different types of environmental sensors that will collect and log data. These sensors have been purchased from the vendor, "Atlas Scientific" [^7]. As of now, the sensors that have been chosen for this ASV are as follows: 
 
-* [PT-1000 Temperature sensor kit](https://atlas-scientific.com/kits/pt-1000-temperature-kit/)
-* [Potential of Hydrogen (pH) sensor kit](https://atlas-scientific.com/kits/ph-kit/)
-* [Dissolved Oxygen (DO) sensor kit](https://atlas-scientific.com/kits/dissolved-oxygen-kit/)
-* [Conductivity K 1.0 sensor kit](https://atlas-scientific.com/kits/conductivity-k-1-0-kit/)
+* [PT-1000 Temperature sensor kit](https://atlas-scientific.com/kits/pt-1000-temperature-kit/) [^7]
+* [Potential of Hydrogen (pH) sensor kit](https://atlas-scientific.com/kits/ph-kit/) [^7]
+* [Dissolved Oxygen (DO) sensor kit](https://atlas-scientific.com/kits/dissolved-oxygen-kit/) [^7]
+* [Conductivity K 1.0 sensor kit](https://atlas-scientific.com/kits/conductivity-k-1-0-kit/) [^7]
 
 A very rudimentary framework of the system has been realized in the Autodesk Fusion 360 software architecture as shown below. The design provided below is a very simplistic platform but which will lay the foundation of the final structure of the system (see Figure 1).
 
@@ -168,6 +168,6 @@ The author would like to thank Dr. Gregor von Laszewski, Dr. Geoffrey Fox, and t
 
 [^6]: Read, E. K., Carr, L., De Cicco, L., Dugan, H. A., Hanson, P. C., Hart, J. A., Kreft, J., Read, J. S., and Winslow, L. A. (2017), Water quality data for national‐scale aquatic research: The Water Quality Portal, Water Resour. Res., 53, 1735– 1745, doi:10.1002/2016WR019993. <https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016WR019993>
 
-[^7]: Atlas Scientific team. Atlas Scientific Environmental Robotics. Retrieved from <https://atlas-scientific.com/>
+[^7]: Atlas Scientific team. *Atlas Scientific Environmental Robotics*. Retrieved from <https://atlas-scientific.com/>
 
-[^8]: Google Colaboratory team. Google Colaboratory. Retrieved from <https://colab.research.google.com/>
+[^8]: Google Colaboratory team. *Google Colaboratory*. Retrieved from <https://colab.research.google.com/>
