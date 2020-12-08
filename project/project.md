@@ -1,5 +1,7 @@
 # Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
 
+- [ ] figure refernces must be done with numbers
+- [ ] do not use below, above ... for figures and tables
 - [x] Please use references instead of using URLs to cite the work. (Response: Appropriate references have been incorporated.) 
 - [x] Benchmark the separate parts of your analysis (Response: Addressed in the code, results displayed in section 5.5) 
 - [x] verify if you need time on the x axis, datapoints would not allow to relate the points if they are gathered in different time intervals. THis has to be clarified while revieing the original data, (Response: Explained in section 4.2.2.) 
