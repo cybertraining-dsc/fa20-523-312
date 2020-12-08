@@ -64,7 +64,7 @@ Although this project focuses more on the data analysis portion than mechanical 
 * [Dissolved Oxygen (DO) sensor kit](https://atlas-scientific.com/kits/dissolved-oxygen-kit/) [^7]
 * [Conductivity K 1.0 sensor kit](https://atlas-scientific.com/kits/conductivity-k-1-0-kit/) [^7]
 
-A very rudimentary framework of such a system has been realized in the Autodesk Fusion 360 software architecture as shown below. A two-hull framework is usually more helpful than a single hull based design since the former would help with stability issues especially while navigating through choppy waters. The design provided below is a very simplistic platform but which definitely lays down the foundation for a more complex structure of an ASV system (see Figure 1).
+A very rudimentary framework of such a system has been realized in the Autodesk Fusion 360 software architecture as shown below. A two-hull framework is usually more helpful than a single hull based design since the former would help with stability issues especially while navigating through choppy waters. The design provided below is a very simplistic platform but which definitely lays down the foundation for a more complex structure of an ASV system.
 
 ![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/asvdesign.png)
 
