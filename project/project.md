@@ -255,6 +255,22 @@ Final cluster assignment:
 
 For the all the four years, heatmaps were plotted to get more information about the trend of the data. Chiefly, the heatmaps give us an empirical form of ideology relating to the degree of correlation between the different water-quality parameters.
 
+![hmap2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapseventeen.png)
+
+**Figure 22:** Heatmap for the water-quality parameters (Year - 2017)
+
+![hmap2018](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapeighteen.png)
+
+**Figure 23:** Heatmap for the water-quality parameters (Year - 2018)
+
+![hmap2019](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapnineteen.png)
+
+**Figure 24:** Heatmap for the water-quality parameters (Year - 2019)
+
+![hmap2020](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmaptwenty.png)
+
+**Figure 25:** Heatmap for the water-quality parameters (Year - 2020)
+
 ### 5.4 Analysis of sample set of values
 
 In this portion, we test the unsupervised learning mechanism on the basis of sample set of water-quality values. In this regard, we feed the sample values to the coding framework and based on the centroids calculated for the past four years, it is able to identify whether the given water sample belong in the safe or unsafe category. Further, if it belongs in the unsafe category, the system can further inform us the degree of criticality of the water-quality degradation. This is carried out by finding out how many water quality parametric values are beyond the normal range. Based on this analysis, a critical nature is then displayed as shown in the figure below. As an example, a critical category of "2" would signify two of the water-quality parameters were beyond the normal range of values. Needless to say, higher is the critical category level, the more degraded the water source is.
@@ -265,7 +281,6 @@ Finally, the benchmark analysis results are shown below for the respective tasks
 - The benchmark analysis was carried out using the cloudmesh benchmark procedure in Python (executed in Google Colab). A sleep-time of "5" was selected as the standard for the benchmark analysis and it has followed consistently for all the calculations.
 - The time values for the different benchmark results was not rounded off in this case as it was both important and interesting to know the minute differences between the different kinds of tasks that were carried out in this regard. It should be noted that the final benchmark value is exceptionally high since this step involves the part where the user inputs the sample values for ascertaining the safety standard for a water source.
 
-'''
 +------------------------------------------+----------+--------+--------+---------------------+-------+--------------+--------+-------+-------------------------------------+
 | Name                                     | Status   |   Time |    Sum | Start               | tag   | Node         | User   | OS    | Version                             |
 |------------------------------------------+----------+--------+--------+---------------------+-------+--------------+--------+-------+-------------------------------------|
@@ -275,7 +290,7 @@ Finally, the benchmark analysis results are shown below for the respective tasks
 | <ipython-input-12-ce973ed94129>/<module> | ok       |  5.091 |  5.091 | 2020-12-07 11:04:24 |       | a3eaca400b9c | collab | Linux | #1 SMP Thu Jul 23 08:00:38 PDT 2020 |
 | <ipython-input-14-7f046bc96145>/<module> | ok       | 80.721 | 80.721 | 2020-12-07 11:04:48 |       | a3eaca400b9c | collab | Linux | #1 SMP Thu Jul 23 08:00:38 PDT 2020 |
 +------------------------------------------+----------+--------+--------+---------------------+-------+--------------+--------+-------+-------------------------------------+
-'''
+
 
 ## 6. Conclusion
 
