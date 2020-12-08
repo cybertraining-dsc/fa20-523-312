@@ -4,8 +4,8 @@
 - [x] Benchmark the separate parts of your analysis (Response: Addressed in the code, results displayed in section 5.5) 
 - [x] verify if you need time on the x axis, datapoints would not allow to relate the points if they are gathered in different time intervals. THis has to be clarified while revieing the original data, (Response: Explained in section 4.2.2.) 
 - [x] some plots seem only to be distinguished by the plotstyle but may not be content different. PLease verify (Response: Addressed in the "Inference" section)
-- [x] Extension for project granted till last day of regular semester in December (Response: Not required.) 
-- [x] modification of report beyond that granted and expected according to author. (Response: Not required.) 
+- [ ] Extension for project granted till last day of regular semester in December
+- [ ] modification of report beyond that granted and expected according to author.
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions) 
 [![Status](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions)
