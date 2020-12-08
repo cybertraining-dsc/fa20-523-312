@@ -9,7 +9,7 @@
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions) 
 [![Status](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions)
-Status: in progress, Type: Project
+Status: final, Type: Project
 
 Saptarshi Sinha, [fa20-523-312](https://github.com/cybertraining-dsc/fa20-523-312/), [Edit](https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md)
 
@@ -288,11 +288,11 @@ The author would like to thank Dr. Geoffrey Fox, Dr. Gregor von Laszewski, and t
 
 [^6]: Read, E. K., Carr, L., De Cicco, L., Dugan, H. A., Hanson, P. C., Hart, J. A., Kreft, J., Read, J. S., and Winslow, L. A. (2017), Water quality data for national‐scale aquatic research: The Water Quality Portal, Water Resour. Res., 53, 1735– 1745, doi:10.1002/2016WR019993. <https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016WR019993>
 
-[^7]: Atlas Scientific team. *Atlas Scientific Environmental Robotics*. Retrieved from <https://atlas-scientific.com/>
+[^7]: Atlas Scientific team. Atlas Scientific Environmental Robotics. Retrieved from <https://atlas-scientific.com/>
 
-[^8]: Sinha, Saptarshi. (2020) *A Big-data analysis framework for Toxicological Study*. Retrieved from <https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb>
+[^8]: Sinha, Saptarshi. (2020) A Big-data analysis framework for Toxicological Study. Retrieved from <https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/code/toxicologyASV.ipynb>
 
-[^9]: Google Colaboratory team. *Google Colaboratory*. Retrieved from <https://colab.research.google.com/>
+[^9]: Google Colaboratory team. Google Colaboratory. Retrieved from <https://colab.research.google.com/>
 
 [^10]: Tan, Steinback, Kumar (2004, April). Introduction to Data Mining, Lecture Notes for Chapter 8, Page 2. Accessed: Nov. 2020, <https://www-users.cs.umn.edu/~kumar001/dmbook/dmslides/chap8_basic_cluster_analysis.pdf>
 
