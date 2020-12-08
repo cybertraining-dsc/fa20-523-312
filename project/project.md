@@ -208,93 +208,71 @@ Next, the content of the dataset, after it is processed in the software architec
 **Figure 21:** Scatter plot for the water-quality parameter involving "Dissolved Oxygen" (2020)
 
 
-### 5.2 Centroid Calculation
+### 5.2 Centroids & Predicted Classes/Clusters
 
-The initial and final centroid values for the safe and unsafe water-quality standards are shown below for the year 2019. The predicted classes for the safe and unsafe clusters has also been shown below that directly follows from the previous results.
+The final centroid values for the safe and unsafe water-quality standards are shown below for the year 2017. Furthermore, the predicted classes for the safe and unsafe clusters, which were calculated based on the results of the centroid values, have also been shown below for the same year of 2017.
 
-'''
-Final centroid mu_safe:
-Temperature          9.350000
-Sp. Conductance    613.726744
-pH                   8.424225
-Dissolved O2        11.826163
-dtype: float64
+![centroids for 2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/centroidsseventeen.png)
 
-Final centroid mu_unsafe:
-Temperature         10.672426
-Sp. Conductance    658.729167
-pH                   8.324755
-Dissolved O2        10.910662
-dtype: float64
+**Figure 22:** Safe and unsafe centroid values for the year 2017.
 
-Final cluster assignment:
+![clusters for 2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/classpredictions.png)
 
-      Temperature  Sp. Conductance   pH  Dissolved O2  Predicted_Class
-0            10.2              559  8.4          10.2                0
-1            10.1              559  8.4          10.2                0
-2            10.1              560  8.4          10.2                0
-3            10.0              560  8.4          10.3                0
-4            10.0              561  8.4          10.2                0
-...           ...              ...  ...           ...              ...
-1327          7.6              670  8.3          10.7                1
-1328          7.6              671  8.3          10.6                1
-1329          7.6              671  8.3          10.6                1
-1330          7.6              671  8.3          10.6                1
-1331          7.6              671  8.3          10.6                1
+**Figure 23:** Predicted classes for safe ("0") and unsafe ("1") clusters for the year 2017.
 
-'''
 
 ### 5.3 Heatmaps for the years - 2017, 2018, 2019, and 2020
 
-For the all the four years, heatmaps were plotted to get more information about the trend of the data. Chiefly, the heatmaps give us an empirical form of ideology relating to the degree of correlation between the different water-quality parameters.
+For the all the four years, heatmaps were plotted to get more information about the trend of the data. Chiefly, the heatmaps give us an empirical form of ideology relating to the degree of correlation between the different water-quality parameters in this data analysis task.
 
 ![hmap2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapseventeen.png)
 
-**Figure 22:** Heatmap for the water-quality parameters (Year - 2017)
+**Figure 24:** Heatmap for the water-quality parameters (Year - 2017)
 
 ![hmap2018](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapeighteen.png)
 
-**Figure 23:** Heatmap for the water-quality parameters (Year - 2018)
+**Figure 25:** Heatmap for the water-quality parameters (Year - 2018)
 
 ![hmap2019](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapnineteen.png)
 
-**Figure 24:** Heatmap for the water-quality parameters (Year - 2019)
+**Figure 26:** Heatmap for the water-quality parameters (Year - 2019)
 
 ![hmap2020](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmaptwenty.png)
 
-**Figure 25:** Heatmap for the water-quality parameters (Year - 2020)
+**Figure 27:** Heatmap for the water-quality parameters (Year - 2020)
+
 
 ### 5.4 Analysis of sample set of values
 
-In this portion, we test the unsupervised learning mechanism on the basis of sample set of water-quality values. In this regard, we feed the sample values to the coding framework and based on the centroids calculated for the past four years, it is able to identify whether the given water sample belong in the safe or unsafe category. Further, if it belongs in the unsafe category, the system can further inform us the degree of criticality of the water-quality degradation. This is carried out by finding out how many water quality parametric values are beyond the normal range. Based on this analysis, a critical nature is then displayed as shown in the figure below. As an example, a critical category of "2" would signify two of the water-quality parameters were beyond the normal range of values. Needless to say, higher is the critical category level, the more degraded the water source is.
+In this portion, we test the unsupervised learning mechanism on actual sample sets of water-quality values. For this purpose, we feed the sample values to the coding framework and based on the centroids calculated for the past four years, it is able to identify whether the given water sample belong in the safe or unsafe category. Further, if it belongs in the unsafe category, the system can further inform us the degree of criticality of the water-quality degradation. This is carried out by evaluating how many water quality parametric values are beyond the normal range. Based on this analysis, a critical nature is then displayed as shown in the figure below. As an example, a critical category of "2" would signify two of the water-quality parameters were beyond the normal range of values, while the others were normal. Needless to say, higher is the critical category level, the more degraded the water source is.
+
+![sample values test](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampleresults.png)
+
+**Figure 28:** Analysis of water sample values by ascertaining the degree of degradation based on critical level 
+
 
 ### 5.5 Benchmark information
 
-Finally, the benchmark analysis results are shown below for the respective tasks carried out by the coding platform. Two important facts should be kept in mind in this case and they are as follows:
-- The benchmark analysis was carried out using the cloudmesh benchmark procedure in Python (executed in Google Colab). A sleep-time of "5" was selected as the standard for the benchmark analysis and it has followed consistently for all the calculations.
-- The time values for the different benchmark results was not rounded off in this case as it was both important and interesting to know the minute differences between the different kinds of tasks that were carried out in this regard. It should be noted that the final benchmark value is exceptionally high since this step involves the part where the user inputs the sample values for ascertaining the safety standard for a water source.
+Finally, the benchmark analysis results are shown below for the respective tasks carried out by the coding platform. Some important facts that should be kept in mind in this regard are as follows:
+- The benchmark analysis was carried out using the cloudmesh benchmark procedure in Python (executed in Google Colab). 
+- A sleep-time of "5" was selected as the standard for the benchmark analysis and it has been adopted consistently for all the other benchmark calculations.
+- The time values for the different benchmark results were not rounded off in this case as it was both important and interesting to know the minute differences between the different kinds of tasks that were carried out in this regard. It should be noted that the final benchmark value is exceptionally high since this step involves the part where the human user inputs the sample values for ascertaining the safety standard for a water source.
 
-+------------------------------------------+----------+--------+--------+---------------------+-------+--------------+--------+-------+-------------------------------------+
-| Name                                     | Status   |   Time |    Sum | Start               | tag   | Node         | User   | OS    | Version                             |
-|------------------------------------------+----------+--------+--------+---------------------+-------+--------------+--------+-------+-------------------------------------|
-| <ipython-input-6-76432cd55eb5>/<module>  | ok       |  9.929 |  9.929 | 2020-12-07 11:03:29 |       | a3eaca400b9c | collab | Linux | #1 SMP Thu Jul 23 08:00:38 PDT 2020 |
-| <ipython-input-8-369a8f571c92>/<module>  | ok       |  5.275 |  5.275 | 2020-12-07 11:03:48 |       | a3eaca400b9c | collab | Linux | #1 SMP Thu Jul 23 08:00:38 PDT 2020 |
-| <ipython-input-10-c44a9c976e98>/<module> | ok       |  5.477 |  5.477 | 2020-12-07 11:04:07 |       | a3eaca400b9c | collab | Linux | #1 SMP Thu Jul 23 08:00:38 PDT 2020 |
-| <ipython-input-12-ce973ed94129>/<module> | ok       |  5.091 |  5.091 | 2020-12-07 11:04:24 |       | a3eaca400b9c | collab | Linux | #1 SMP Thu Jul 23 08:00:38 PDT 2020 |
-| <ipython-input-14-7f046bc96145>/<module> | ok       | 80.721 | 80.721 | 2020-12-07 11:04:48 |       | a3eaca400b9c | collab | Linux | #1 SMP Thu Jul 23 08:00:38 PDT 2020 |
-+------------------------------------------+----------+--------+--------+---------------------+-------+--------------+--------+-------+-------------------------------------+
+![benchmark results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/bmresults.png)
+
+**Figure 29:** Benchmark results for all the tasks that were carried out for this big data analysis task using Google Colab
 
 
 ## 6. Conclusion
 
-Although the endeavor carried out in this example might not involve a plethora of high-end applications or intricate logic frameworks, it still provides a very decent foundational approach for carrying out toxicological analysis for water sources. Most importantly, it should be noted that the results obtained for sample values correspond to what we would normally expect for polluted and non-polluted sources of water. For instance, it was found that water sources with high values of specific conductance were categorized in the "unsafe" category which is to be expected since a high conductance value typically represents the presence of dissolved salts and ions in the water source, which normally indicates that effluents or agricultural run-off might have made its way to the water source. Additionally, it was also found out that water samples with high values of dissolved oxygen levels were categorized in the "safe" category which is certainly true.
+This research endeavor implements a big data analysis framework for analyzing toxicity of aquatic systems. It is an attempt where hardware and software meet together to give reliable results, and on the basis of which we are able to design an elaborate mechanism that can analyze other sample water sources and provide decisions regarding its degradation. Although the endeavor carried out in this example might not involve a plethora of high-end applications or intricate logic frameworks, it still provides a very decent foundational approach for carrying out toxicological analysis for water sources. Most importantly, it should be noted that the results obtained for sample values correspond to what we would normally expect for polluted and non-polluted sources of water. For instance, it was found that water sources with high values of specific conductance were categorized in the "unsafe" category which is to be expected since a high conductance value typically signifies the presence of dissolved salts and ions in the water source, which normally indicates that effluents or agricultural run-off might have made its way to the water source. Additionally, it was also found out that water samples with high values of dissolved oxygen levels were categorized in the "safe" category which is certainly true based on biological postulates.
 
-Of course, a more diverse array of data coupled with more scientific and advanced ASV systems would have provided us with even better results. But as indicated earlier, this research endeavor provides a pragmatic foundational approach to conducting this kind of big data analytical work. We can build up on the logic presented in this endeavor to come up with even more advanced and robust version of toxicological analysis.
+Of course, a more diverse array of data coupled with more scientific and enhanced ASV systems would have probably provided us with even better results. But as indicated earlier, this research endeavor provides a pragmatic foundational approach to conducting this kind of big data analytical work. We can build up on the logic presented in this endeavor to come up with even more advanced and robust version of toxicological analysis tasks.
 
 
 ## 7. Acknowledgements
 
-The author would like to thank Dr. Gregor von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
+The author would like to thank Dr. Geoffrey Fox, Dr. Gregor von Laszewski, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
 
 ## 8. References
 
