@@ -66,7 +66,7 @@ Although this project focuses more on the data analysis portion than mechanical 
 * [Dissolved Oxygen (DO) sensor kit](https://atlas-scientific.com/kits/dissolved-oxygen-kit/) [^7]
 * [Conductivity K 1.0 sensor kit](https://atlas-scientific.com/kits/conductivity-k-1-0-kit/) [^7]
 
-A very rudimentary framework of such a system has been realized in the Autodesk Fusion 360 software architecture as shown below. A two-hull framework is usually more helpful than a single hull based design since the former would help with stability issues especially while navigating through choppy waters. The design provided below is a very simplistic platform but which definitely lays down the foundation for a more complex structure of an ASV system.
+A very rudimentary framework of such a system has been realized in the Autodesk Fusion 360 software architecture as shown below. A two-hull framework is usually more helpful than a single hull based design since the former would help with stability issues especially while navigating through choppy waters. Figure 1 shows the design in the form of a very simplistic platform but which definitely lays down the foundation for a more complex structure for an ASV system.
 
 ![ASV from Fusion 360](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/asvdesign.png)
 
@@ -95,7 +95,7 @@ The software logic is located at this [link](https://github.com/cybertraining-ds
 
 **Meta-data**: As with any other instance of big data, the data obtained from the USGS website is rife with many unnecessary information. Most of these information relate to meta-data for the particular database and it also contains detailed logistical information such as location information, units used for measurement, contact information, etc. Fortunately, all these information have been bunched up nicely at the beginning of the database and they were conveniently filtered out by skipping the first thirty-four (34) rows while reading the corresponding comma separated value (csv) files.
 
-**Extraction of required water-quality parameters (Temperature, Specific Conductance, pH, Dissolved Oxygen)**: After filtering out the meta-data, it is very essential to focus only on the relevant portion of the database which contains the required information that is needed for the data analysis tasks. In this case, if we observe carefully, we will notice that not all the columns contain the required information relating to water-quality parameters. Some of them include information such as date, time, system's unit, etc. Since these will not be required for our analysis task, we extract only those columns that contain information relating to the four primary water-quality parameters. A sample file has been provided below that displays all the information contained in the USGS database files.
+**Extraction of required water-quality parameters (Temperature, Specific Conductance, pH, Dissolved Oxygen)**: After filtering out the meta-data, it is very essential to focus only on the relevant portion of the database which contains the required information that is needed for the data analysis tasks. In this case, if we observe carefully, we will notice that not all the columns contain the required information relating to water-quality parameters. Some of them include information such as date, time, system's unit, etc. Since these will not be required for our analysis task, we extract only those columns that contain information relating to the four primary water-quality parameters. Figure 2 displays the layout of the USGS dataset files containing all the extraneous information that are deemed unnecessary for the big data analysis task.
 
 ![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)
 
@@ -111,7 +111,7 @@ The software logic is located at this [link](https://github.com/cybertraining-ds
 
 #### 4.2.3 Unsupervised learning: K-means clustering analysis ("Safe" & "Unsafe" Centroid calculation)
 
-**General Clustering Analysis**: The concept behind any clustering based approach involves an unsupervised learning mechanism. This means that the dataset traditionally does not come labelled and the task in hand is to find patterns within the data-set based on suitable metrics. These patterns help delineate the different clusters and classify the data by assigning them to one of these clusters. This process is usually carried out by measuring the euclidean distance of each point from the "centroids" of every cluster. The resultant clusters are created in such a way that the distance within the points in a particular cluster are minimized as much as possible whereas, the corresponding distance between points from different clusters are maximized. This concept can be summarized by the figure below.
+**General Clustering Analysis**: The concept behind any clustering based approach involves an unsupervised learning mechanism. This means that the dataset traditionally does not come labelled and the task in hand is to find patterns within the data-set based on suitable metrics. These patterns help delineate the different clusters and classify the data by assigning them to one of these clusters. This process is usually carried out by measuring the euclidean distance of each point from the "centroids" of every cluster. The resultant clusters are created in such a way that the distance within the points in a particular cluster are minimized as much as possible whereas, the corresponding distance between points from different clusters are maximized. Figure 3 summarizes this concept of clustering technique.
 
 ![clustering concept](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/clusteranalysis.png)
 
@@ -121,7 +121,7 @@ The software logic is located at this [link](https://github.com/cybertraining-ds
 
 **Iteration process**: The next steps for the centroid calculation involves creating an iteration process which will keep updating and perfecting the centroid values upon every execution of the iteration. In this case, the condition for ending the iteration involved either exceeding fifty iterations or reaching the ideal situation where the new centroid value equals the previous centroid value. In the later case, it can be mentioned that the centroid calculation has converged to a specific ideal value. Fortunately, in the case of this project, it was possible to arrive at this convergence of centroid values with not too many iteration steps. The details of this process has been explained in the coding framework with appropriate comments. 
 
-**Assigning of Clusters**: At the end of the iteration step, we end up with the final centroid values for the safe and unsafe category. With the help of these values, we calculate the euclidean distance for every points and assign them to appropriate clusters to which they are closest to. In this way, we complete the unsupervised algorithm of clustering process for any unlabelled data that is provided to us. In this particular endeavor, we assign the value "0" for a predicted cluster indicating a safe set of water-quality values for a given point, and a value of "1" for an unsafe set of water-quality values for a given point. The following figure summarizes this idea.
+**Assigning of Clusters**: At the end of the iteration step, we end up with the final centroid values for the safe and unsafe category. With the help of these values, we calculate the euclidean distance for every points and assign them to appropriate clusters to which they are closest to. In this way, we complete the unsupervised algorithm of clustering process for any unlabelled data that is provided to us. In this particular endeavor, we assign the value "0" for a predicted cluster indicating a safe set of water-quality values for a given point, and a value of "1" for an unsafe set of water-quality values for a given point. Figure 4 summarizes this idea behind the K-means clustering method that chiefly works as an unsupervised learning algorithm.
 
 ![k-means idea](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/kmeansclustering.png)
 
@@ -135,7 +135,7 @@ In the final step, we display all the results and relevant plots for this big-da
 
 ### 5.1 Analysis of extracted data and statistical information
 
-The first preliminary set of results were analyzed to get a general idea of how the water quality paramters vary for the system in question. For the purposes of data visualization, the processed data (viewed as a data-frame in python) was first analyzed to understand the four primary water-quality parameters that are being worked upon. The data-frames for the big data sets are shown below, along with the corresponding statistical information that were evalauted for such attributes.
+The first preliminary set of results were analyzed to get a general idea of how the water quality paramters vary for the system in question. For the purposes of data visualization, the processed data (viewed as a data-frame in python) was first analyzed to understand the four primary water-quality parameters that are being worked upon. The data-frames for the big data sets are shown below, along with the corresponding statistical information that were evalauted for such attributes. Figure 5 shows the preliminary results that were obtained for the data visualization and statistical processing tasks.
 
 ![Preliminary results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/prelimresults.png)
 
@@ -145,65 +145,97 @@ In the above set of results, it should be worthwhile to note that temperature is
 
 Next, the content of the dataset, after it is processed in the software architecture, is plotted. It displays the alteration of the values (expressed in scatter plots) of the four main water-quality parameters (viz. Temperature, Specific Conductance, pH, and Dissolved Oxygen) over the period of time that starts from November 1 to November 14 for the four years involving 2017, 2018, 2019, and 2020.
 
+Figure 6 displays the scatter plot data for the "temperature" attribute in the year 2017.
+
 ![Temperature 2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/seventeentemp.png)
 
 **Figure 6:** Scatter plot for the water-quality parameter involving "Temperature" (2017)
+
+Figure 7 displays the scatter plot data for the "specific conductance" attribute in the year 2017.
 
 ![Conductance 2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/seventeencond.png)
 
 **Figure 7:** Scatter plot for the water-quality parameter involving "Specific Conductance" (2017)
 
+Figure 8 displays the scatter plot data for the "pH" attribute in the year 2017.
+
 ![pH 2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/seventeenph.png)
 
 **Figure 8:** Scatter plot for the water-quality parameter involving "pH" (2017)
+
+Figure 9 displays the scatter plot data for the "dissolved oxygen" attribute in the year 2017.
 
 ![Dissolved Oxygen 2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/seventeendox.png)
 
 **Figure 9:** Scatter plot for the water-quality parameter involving "Dissolved Oxygen" (2017)
 
+Figure 10 displays the scatter plot data for the "temperature" attribute in the year 2018.
+
 ![Temperature 2018](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/eighteentemp.png)
 
 **Figure 10:** Scatter plot for the water-quality parameter involving "Temperature" (2018)
+
+Figure 11 displays the scatter plot data for the "specific conductance" attribute in the year 2018.
 
 ![Conductance 2018](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/eighteencond.png)
 
 **Figure 11:** Scatter plot for the water-quality parameter involving "Specific Conductance" (2018)
 
+Figure 12 displays the scatter plot data for the "pH" attribute in the year 2018.
+
 ![pH 2018](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/eighteenph.png)
 
 **Figure 12:** Scatter plot for the water-quality parameter involving "pH" (2018)
+
+Figure 13 displays the scatter plot data for the "dissolved oxygen" attribute in the year 2018.
 
 ![Dissolved Oxygen 2018](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/eighteendox.png)
 
 **Figure 13:** Scatter plot for the water-quality parameter involving "Dissolved Oxygen" (2018)
 
+Figure 14 displays the scatter plot data for the "temperature" attribute in the year 2019.
+
 ![Temperature 2019](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/nineteentemp.png)
 
 **Figure 14:** Scatter plot for the water-quality parameter involving "Temperature" (2019)
+
+Figure 15 displays the scatter plot data for the "specific conductance" attribute in the year 2019.
 
 ![Conductance 2019](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/nineteencond.png)
 
 **Figure 15:** Scatter plot for the water-quality parameter involving "Specific Conductance" (2019)
 
+Figure 16 displays the scatter plot data for the "pH" attribute in the year 2019.
+
 ![pH 2019](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/nineteenph.png)
 
 **Figure 16:** Scatter plot for the water-quality parameter involving "pH" (2019)
+
+Figure 17 displays the scatter plot data for the "dissolved oxygen" attribute in the year 2019.
 
 ![Dissolved Oxygen 2019](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/nineteendox.png)
 
 **Figure 17:** Scatter plot for the water-quality parameter involving "Dissolved Oxygen" (2019)
 
+Figure 18 displays the scatter plot data for the "temperature" attribute in the year 2020.
+
 ![Temperature 2020](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/twentytemp.png)
 
 **Figure 18:** Scatter plot for the water-quality parameter involving "Temperature" (2020)
+
+Figure 19 displays the scatter plot data for the "specific conductance" attribute in the year 2020.
 
 ![Conductance 2020](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/twentycond.png)
 
 **Figure 19:** Scatter plot for the water-quality parameter involving "Specific Conductance" (2020)
 
+Figure 20 displays the scatter plot data for the "pH" attribute in the year 2020.
+
 ![pH 2020](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/twentyph.png)
 
 **Figure 20:** Scatter plot for the water-quality parameter involving "pH" (2020)
+
+Figure 21 displays the scatter plot data for the "dissolved oxygen" attribute in the year 2020.
 
 ![Dissolved Oxygen 2020](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/twentydox.png)
 
@@ -212,7 +244,7 @@ Next, the content of the dataset, after it is processed in the software architec
 
 ### 5.2 Centroids & Predicted Classes/Clusters
 
-The final centroid values for the safe and unsafe water-quality standards are shown below for the year 2017. Furthermore, the predicted classes for the safe and unsafe clusters, which were calculated based on the results of the centroid values, have also been shown below for the same year of 2017.
+Figure 22 shows the final centroid values for the safe and unsafe water-quality standards for the year 2017. Furthermore, Figure 23 shows the predicted classes for the safe and unsafe clusters, which were calculated based on the results of the centroid values, for the same year of 2017.
 
 ![centroids for 2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/centroidsseventeen.png)
 
@@ -227,17 +259,25 @@ The final centroid values for the safe and unsafe water-quality standards are sh
 
 For the all the four years, heatmaps were plotted to get more information about the trend of the data. Chiefly, the heatmaps give us an empirical form of ideology relating to the degree of correlation between the different water-quality parameters in this data analysis task.
 
+Figure 24 visualizes the heat-map and shows the relationships between the various aquatic parameters for the year of 2017.
+
 ![hmap2017](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapseventeen.png)
 
 **Figure 24:** Heatmap for the water-quality parameters (Year - 2017)
+
+Figure 25 visualizes the heat-map and shows the relationships between the various aquatic parameters for the year of 2018.
 
 ![hmap2018](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapeighteen.png)
 
 **Figure 25:** Heatmap for the water-quality parameters (Year - 2018)
 
+Figure 26 visualizes the heat-map and shows the relationships between the various aquatic parameters for the year of 2019.
+
 ![hmap2019](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmapnineteen.png)
 
 **Figure 26:** Heatmap for the water-quality parameters (Year - 2019)
+
+Figure 27 visualizes the heat-map and shows the relationships between the various aquatic parameters for the year of 2020.
 
 ![hmap2020](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/heatmaptwenty.png)
 
@@ -246,7 +286,9 @@ For the all the four years, heatmaps were plotted to get more information about 
 
 ### 5.4 Analysis of sample set of values
 
-In this portion, we test the unsupervised learning mechanism on actual sample sets of water-quality values. For this purpose, we feed the sample values to the coding framework and based on the centroids calculated for the past four years, it is able to identify whether the given water sample belong in the safe or unsafe category. Further, if it belongs in the unsafe category, the system can further inform us the degree of criticality of the water-quality degradation. This is carried out by evaluating how many water quality parametric values are beyond the normal range. Based on this analysis, a critical nature is then displayed as shown in the figure below. As an example, a critical category of "2" would signify two of the water-quality parameters were beyond the normal range of values, while the others were normal. Needless to say, higher is the critical category level, the more degraded the water source is.
+In this portion, we test the unsupervised learning mechanism on actual sample sets of water-quality values. For this purpose, we feed the sample values to the coding framework and based on the centroids calculated for the past four years, it is able to identify whether the given water sample belong in the safe or unsafe category. Further, if it belongs in the unsafe category, the system can further inform us the degree of criticality of the water-quality degradation. This is carried out by evaluating how many water quality parametric values are beyond the normal range. Based on this analysis, a critical nature is then displayed as an output result. As an example, a critical category of "2" would signify two of the water-quality parameters were beyond the normal range of values, while the others were normal. Needless to say, higher is the critical category level, the more degraded the water source is.
+
+Figure 28 displays the results obtained for specific sample values of water quality parameters.
 
 ![sample values test](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampleresults.png)
 
@@ -259,6 +301,8 @@ Finally, the benchmark analysis results are shown below for the respective tasks
 - The benchmark analysis was carried out using the cloudmesh benchmark procedure in Python (executed in Google Colab). 
 - A sleep-time of "5" was selected as the standard for the benchmark analysis and it has been adopted consistently for all the other benchmark calculations.
 - The time values for the different benchmark results were not rounded off in this case as it was both important and interesting to know the minute differences between the different kinds of tasks that were carried out in this regard. It should be noted that the final benchmark value is exceptionally high since this step involves the part where the human user inputs the sample values for ascertaining the safety standard for a water source.
+
+Figure 29 shows the benchmark results that were obtained for specific sections in the coding framework.
 
 ![benchmark results](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/bmresults.png)
 
