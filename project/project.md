@@ -217,9 +217,37 @@ Next, the content of the dataset, after it is processed in the software architec
 
 ### 5.2 Centroid Calculation
 
-The initial and final centroid values for the safe and unsafe water-quality standards are shown below. The predicted classes for the safe and unsafe clusters has also been shown below that directly follows from the previous results.
+The initial and final centroid values for the safe and unsafe water-quality standards are shown below for the year 2019. The predicted classes for the safe and unsafe clusters has also been shown below that directly follows from the previous results.
 
 '''
+Final centroid mu_safe:
+Temperature          9.350000
+Sp. Conductance    613.726744
+pH                   8.424225
+Dissolved O2        11.826163
+dtype: float64
+
+Final centroid mu_unsafe:
+Temperature         10.672426
+Sp. Conductance    658.729167
+pH                   8.324755
+Dissolved O2        10.910662
+dtype: float64
+
+Final cluster assignment:
+
+      Temperature  Sp. Conductance   pH  Dissolved O2  Predicted_Class
+0            10.2              559  8.4          10.2                0
+1            10.1              559  8.4          10.2                0
+2            10.1              560  8.4          10.2                0
+3            10.0              560  8.4          10.3                0
+4            10.0              561  8.4          10.2                0
+...           ...              ...  ...           ...              ...
+1327          7.6              670  8.3          10.7                1
+1328          7.6              671  8.3          10.6                1
+1329          7.6              671  8.3          10.6                1
+1330          7.6              671  8.3          10.6                1
+1331          7.6              671  8.3          10.6                1
 
 '''
 
