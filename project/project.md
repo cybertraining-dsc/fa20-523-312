@@ -113,7 +113,7 @@ The software logic is located at this [link](https://github.com/cybertraining-ds
 
 ![clustering concept](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/clusteranalysis.png)
 
-**Figure 3:** Concept of Clustering analysis adopted as an unsupervised learning process [^10]
+**Figure 3:** Concept of Clustering analysis adopted as an unsupervised learning process [^DataMining]
 
 **K-means Classification: Centroid Calculation**: The algorithm for this step first starts with selecting a random centroid value to start with to begin the iteration process. In order to be rigorous in this regard, the initial points for centroid values were chosen to be one standard deviation away from the median values for the four water-quality parameters. More importantly, two initial centroid values were chosen that would result in two clusters, one belonging to the safe water-standard cluster and the other belonging to the unsafe category. For the safe centroid value, the point chosen was such that it was one standard deviation lower than the median values for the temperature and specific conductance parameters, whereas it was one standard deviation higher than the median values for the pH and disolved oxygen level parameters. This logic was reversed in case of the unsafe centroid starting value. The intuition behind this approach comes from the fact that a lower temperature and specific conductance value means lower degree of exothermic reactions and lower amount dissolved salts which are typically the traits of unpolluted water sources, and which also have higher pH value (that is, less acidic) and higher level of dissolved oxygen. Hence, the initial centroid value for the "safe" category was chosen in this way. For the unsafe cateory, the metrics were simply reversed.
 
@@ -123,7 +123,7 @@ The software logic is located at this [link](https://github.com/cybertraining-ds
 
 ![k-means idea](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/kmeansclustering.png)
 
-**Figure 4:** Concept of Clustering analysis adopted as an unsupervised learning process [^11]
+**Figure 4:** Concept of Clustering analysis adopted as an unsupervised learning process [^KMeans]
 
 #### 4.2.4 Display of results & analysis of any given sample values set
 
@@ -294,6 +294,6 @@ The author would like to thank Dr. Geoffrey Fox, Dr. Gregor von Laszewski, and t
 
 [^9]: Google Colaboratory team. Google Colaboratory. Retrieved from <https://colab.research.google.com/>
 
-[^10]: Tan, Steinback, Kumar (2004, April). Introduction to Data Mining, Lecture Notes for Chapter 8, Page 2. Accessed: Nov. 2020, <https://www-users.cs.umn.edu/~kumar001/dmbook/dmslides/chap8_basic_cluster_analysis.pdf>
+[^DataMining]: Tan, Steinback, Kumar (2004, April). Introduction to Data Mining, Lecture Notes for Chapter 8, Page 2. Accessed: Nov. 2020, <https://www-users.cs.umn.edu/~kumar001/dmbook/dmslides/chap8_basic_cluster_analysis.pdf>
 
-[^11]: Alan J. (2019, November). K-means: A Complete Introduction. Retrieved from <https://towardsdatascience.com/k-means-a-complete-introduction-1702af9cd8c>
+[^KMeans]: Alan J. (2019, November). K-means: A Complete Introduction. Retrieved from <https://towardsdatascience.com/k-means-a-complete-introduction-1702af9cd8c>
