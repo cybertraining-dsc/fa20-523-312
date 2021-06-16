@@ -1,4 +1,16 @@
-# Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
+---
+date: 2021-03-15
+title: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
+linkTitle: "ASV"
+tags: ["project", "ai", "environment"]
+description: "Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)"
+author: Saptarshi Sinha, 
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+---
+
+## Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions) 
 [![Status](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions)
