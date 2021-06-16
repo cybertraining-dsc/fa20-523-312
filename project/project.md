@@ -10,8 +10,6 @@ resources:
   title: "Image #:counter"
 ---
 
-## Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)
-
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions) 
 [![Status](https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-312/actions)
 Status: final, Type: Project
