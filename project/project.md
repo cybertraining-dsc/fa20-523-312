@@ -5,7 +5,7 @@ linkTitle: "ASV"
 tags: ["project", "ai", "environment"]
 description: "Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)"
 author: Saptarshi Sinha
-github_repo: "https://github.com/cybertraining-dsc/fa20-523-312/edit/main/project/project.md"
+github_repo: "https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md"
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
